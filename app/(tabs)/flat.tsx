@@ -12,7 +12,7 @@ import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 
-export default function HomeScreen() {
+export default function Flat() {
   return (
     <View className="flex justify-around">
       <View className="grid md:grid-cols-3 gap-x-5 gap-y-10 mt-16">
