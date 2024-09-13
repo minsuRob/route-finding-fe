@@ -11,13 +11,12 @@ import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
+import CalendarScreen from "@/components/calendar/calendarScreen";
 
 export default function HomeScreen() {
   return (
     <View className="flex justify-around">
-      <View className="grid md:grid-cols-3 gap-x-5 gap-y-10 mt-16">
-        <FlatList renderItem={Comp} data={[{}, {}, {}, {}]} />
-      </View>
+      <CalendarScreen />
     </View>
   );
 }
