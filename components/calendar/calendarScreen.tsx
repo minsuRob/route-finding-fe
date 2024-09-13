@@ -113,59 +113,6 @@ export const CalendarScreen = () => {
     setCustomHeaderNewMonth(false);
   };
 
-  const renderCalendarWithCustomHeader = () => {
-    const CustomHeader = React.forwardRef((props, ref) => {
-      customHeaderProps.current = props;
-
-      return (
-        // @ts-expect-error
-        <View ref={ref} {...props} style={styles.customHeader}>
-          <TouchableOpacity onPress={movePrevious}>
-            <Text>Previous</Text>
-          </TouchableOpacity>
-          <Text>Custom header!</Text>
-          <Text>{currentMonth}</Text>
-          <TouchableOpacity onPress={moveNext}>
-            <Text>Next</Text>
-          </TouchableOpacity>
-        </View>
-      );
-    });
-
-    return (
-      <Fragment>
-        <Text style={styles.text}>Calendar with custom header component</Text>
-        <Calendar
-          initialDate={INITIAL_DATE}
-          testID={calendarIDs.calendars.LAST}
-          style={[styles.calendar, styles.customCalendar]}
-          customHeader={CustomHeader}
-        />
-      </Fragment>
-    );
-  };
-
-  const renderCalendarWithInactiveDays = () => {
-    return (
-      <Fragment>
-        <Text style={styles.text}>Calendar with inactive days</Text>
-        <Calendar
-          style={styles.calendar}
-          disableAllTouchEventsForInactiveDays
-          current={INITIAL_DATE}
-          markedDates={{
-            [getDate(3)]: {
-              inactive: true,
-            },
-            [getDate(4)]: {
-              inactive: true,
-            },
-          }}
-        />
-      </Fragment>
-    );
-  };
-
   const renderExamples = () => {
     return <Fragment>{renderCalendarWithPeriodMarkingAndSpinner()}</Fragment>;
   };
