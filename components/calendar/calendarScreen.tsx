@@ -5,11 +5,27 @@ import {
   ScrollView,
   Text,
   TouchableOpacity,
+  Dimensions,
 } from "react-native";
 import { Calendar, CalendarUtils } from "react-native-calendars";
 import calendarIDs from "./calendarIDs";
+import styled from "styled-components/native";
 
 const INITIAL_DATE = "2022-07-06";
+
+const { width: SCREEN_WIDTH } = Dimensions.get("window");
+
+const Container = styled.ScrollView<{ width: number }>`
+  /* width: 80%; */
+  /* @media screen and (min-width: 500px) {
+    /* width: 30%; */
+  width: ${(props) => (props.width > 500 ? "50%" : "100%")};
+`;
+const Wrapper = styled.View`
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+`;
 
 export const CalendarScreen = () => {
   const [selected, setSelected] = useState(INITIAL_DATE);
@@ -117,13 +133,18 @@ export const CalendarScreen = () => {
     return <Fragment>{renderCalendarWithPeriodMarkingAndSpinner()}</Fragment>;
   };
 
+  // <Title isDark={isDark}></Title>
+
   return (
-    <ScrollView
-      showsVerticalScrollIndicator={false}
-      testID={calendarIDs.calendars.CONTAINER}
-    >
-      {renderExamples()}
-    </ScrollView>
+    <Wrapper>
+      <Container
+        width={SCREEN_WIDTH}
+        showsVerticalScrollIndicator={false}
+        testID={calendarIDs.calendars.CONTAINER}
+      >
+        {renderExamples()}
+      </Container>
+    </Wrapper>
   );
 };
 
