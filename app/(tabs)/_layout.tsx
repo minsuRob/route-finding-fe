@@ -6,15 +6,18 @@ import { Colors } from "@/constants/Colors";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { Drawer } from "expo-router/drawer";
 import { Image, SafeAreaView, Text, useColorScheme, View } from "react-native";
-import styled, { ThemeProvider } from "styled-components/native";
-import { darkTheme, lightTheme } from "@/components/common/styles";
+import styled from "styled-components/native";
+// import { darkTheme, lightTheme } from "@/components/common/styles";
 
-const Nickname = styled.Text`
+const Nickname = styled.Text<{ isDark: boolean }>`
   margin-top: 4px;
   font-size: 16px;
+  color: ${(props) => (props.isDark ? "#FFF" : "#000")};
 `;
+
 export default function TabLayout() {
   const colorScheme = useColorScheme();
+  const isDark = colorScheme === "dark" ? true : false;
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
@@ -46,7 +49,7 @@ export default function TabLayout() {
                     borderRadius: 999,
                   }}
                 />
-                <Nickname>Banes Kang</Nickname>
+                <Nickname isDark={isDark}>Banes Kang</Nickname>
               </View>
             </SafeAreaView>
           );
