@@ -19,7 +19,7 @@ const Container = styled.ScrollView<{ width: number }>`
   /* width: 80%; */
   /* @media screen and (min-width: 500px) {
     /* width: 30%; */
-  width: ${(props) => (props.width > 500 ? "50%" : "100%")};
+  width: ${(props) => (props.width > 500 ? "50%" : "10 0%")};
 `;
 const Wrapper = styled.View`
   justify-content: center;

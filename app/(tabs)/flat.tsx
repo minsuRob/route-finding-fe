@@ -26,7 +26,8 @@ const Comp = () => {
   return (
     <View className="flex flex-col">
       <View className="bg-cover bg-center mb-3 py-28 bg-red-500"></View>
-      <Text className="text-xl text-white">Name</Text>
+      <Text className="text-xl">Name</Text>
+      <ThemedText type="defaultSemiBold">Name</ThemedText>
       <Text className="border-t mt-2 py-2 text-xs opacity-50 border-gray-400 text-white">
         CaTe
       </Text>
