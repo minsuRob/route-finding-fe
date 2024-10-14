@@ -1,5 +1,6 @@
 import { ThemedText } from "@/components/ThemedText";
 import React from "react";
+import { useColorScheme } from "react-native";
 import styled from "styled-components/native";
 // import { useUser } from "../hooks/useUser";
 // import { logUserOut } from "../apollo";
@@ -55,37 +56,64 @@ const Loading = styled.ActivityIndicator`
   color: ${(props) => props.theme.fontColor};
 `;
 
+const Card = styled.View``;
+
+const UserInfo = styled.View``;
+
+const UserImg = styled.View``;
+
+const Banner = styled.View``;
+
+const UserTwitter = styled.Text``;
+
+const UserStats = styled.View``;
+
+const UserStat = styled.View``;
+
+const UserStatInfo = styled.Text``;
+const UserStatLabel = styled.Text``;
+
 const ThemeText = styled.Text<{ isDark: boolean }>`
   color: ${(props) => (props.isDark ? "#FFF" : "#000")};
 `;
 const SangText = styled(ThemeText)`
   font-size: 20px;
 `;
+const UserName = styled.Text<{ isDark: boolean }>`
+  color: ${(props) => (props.isDark ? "#FFF" : "#000")};
+`;
+
 export default function Profile({}) {
   // const { data } = useUser();
+  const colorScheme = useColorScheme();
+  const isDark = colorScheme === "dark" ? true : false;
+
   return (
-    <Container>
-      <ThemedText>MS</ThemedText>
-      {/* {data?.seeProfile ? ( */}
-      <>
-        {/* <Avatar resizeMode="contain" source={data?.seeProfile?.avatarURL ? data?.seeProfile?.avatarURL : require("../assets/nullAvatar.png")} />
-                <Username>{data?.seeProfile?.username}</Username>
-                <Name>Name | {data?.seeProfile?.name}</Name>
-                <Location>Location | {data?.seeProfile?.location}</Location>
-                <LogoutBtn onPress={() => logUserOut(navigation)}>
-                    <LogoutBtnText>Log Out</LogoutBtnText>
-                </LogoutBtn> */}
-        <Avatar
-          resizeMode="contain"
-          // source={require("https://resources.chimhaha.net/article/1718893896146-fvvkh60gstd.jpg")}
-        />
-        <Username>MS</Username>
-        <Name>Name | </Name>
-        <Location>Location | </Location>
-        <LogoutBtn>
-          <LogoutBtnText>Log Out</LogoutBtnText>
-        </LogoutBtn>
-      </>
-    </Container>
+    <Card>
+      <UserInfo>
+        <UserImg>
+          {/* <Banner bgImage={bgImage} />
+          <Avatar src={avatar} /> */}
+        </UserImg>
+        <UserName isDark={isDark}>이민수</UserName>
+        <SangText isDark={isDark}>이민수</SangText>
+
+        <UserTwitter>twitter</UserTwitter>
+      </UserInfo>
+      <UserStats>
+        <UserStat>
+          <UserStatInfo>200</UserStatInfo>
+          <UserStatLabel>Followers</UserStatLabel>
+        </UserStat>
+        <UserStat>
+          <UserStatInfo>999</UserStatInfo>
+          <UserStatLabel>Likes</UserStatLabel>
+        </UserStat>
+        <UserStat>
+          <UserStatInfo>500</UserStatInfo>
+          <UserStatLabel>Tweets</UserStatLabel>
+        </UserStat>
+      </UserStats>
+    </Card>
   );
 }
