@@ -7,6 +7,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { Drawer } from "expo-router/drawer";
 import { Image, SafeAreaView, Text, useColorScheme, View } from "react-native";
 import styled from "styled-components/native";
+import { DrawerItemList } from "@react-navigation/drawer";
 // import { darkTheme, lightTheme } from "@/components/common/styles";
 
 const Nickname = styled.Text<{ isDark: boolean }>`
@@ -51,6 +52,7 @@ export default function TabLayout() {
                 />
                 <Nickname isDark={isDark}>Banes Kang</Nickname>
               </View>
+              <DrawerItemList {...props} />
             </SafeAreaView>
           );
         }}
