@@ -55,6 +55,12 @@ const Loading = styled.ActivityIndicator`
   color: ${(props) => props.theme.fontColor};
 `;
 
+const ThemeText = styled.Text<{ isDark: boolean }>`
+  color: ${(props) => (props.isDark ? "#FFF" : "#000")};
+`;
+const SangText = styled(ThemeText)`
+  font-size: 20px;
+`;
 export default function Profile({}) {
   // const { data } = useUser();
   return (
