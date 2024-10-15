@@ -1,34 +1,117 @@
-import {
-  Image,
-  StyleSheet,
-  Platform,
-  Text,
-  View,
-  FlatList,
-} from "react-native";
-
-import { HelloWave } from "@/components/HelloWave";
-import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
-import { ThemedView } from "@/components/ThemedView";
-import CalendarScreen from "@/components/calendar/calendarScreen";
+import { ThemeText } from "@/constants/Styles";
+import React from "react";
+import { useColorScheme } from "react-native";
+import styled from "styled-components/native";
+// import { useUser } from "../hooks/useUser";
+// import { logUserOut } from "../apollo";
+// import { light } from "../shared";
 
-export default function HomeScreen() {
+const Container = styled.View`
+  width: 100%;
+  flex: 1;
+  align-items: center;
+`;
+
+const Avatar = styled.Image`
+  width: 150px;
+  height: 150px;
+  margin-top: 100px;
+`;
+
+const Username = styled.Text`
+  margin-top: 10px;
+  font-size: 22px;
+  color: ${(props) => props.theme.fontColor};
+`;
+
+const Name = styled.Text`
+  margin-top: 4px;
+  font-size: 16px;
+  color: ${(props) => props.theme.fontColor};
+`;
+
+const Location = styled.Text`
+  margin-top: 4px;
+  font-size: 16px;
+  color: ${(props) => props.theme.accent};
+`;
+
+const LogoutBtn = styled.TouchableOpacity`
+  position: absolute;
+  margin-top: 4px;
+  padding: 10px;
+  background-color: #ff471a;
+  border-radius: 5px;
+  bottom: 14px;
+`;
+
+const LogoutBtnText = styled.Text`
+  font-size: 16px;
+  color: #ffffff;
+`;
+
+const Loading = styled.ActivityIndicator`
+  margin-top: 40px;
+  transform: scale(1.4, 1.4);
+  color: ${(props) => props.theme.fontColor};
+`;
+
+const Card = styled.View``;
+
+const UserInfo = styled.View``;
+
+const UserImg = styled.View``;
+
+const Banner = styled.View``;
+
+const UserTwitter = styled.Text``;
+
+const UserStats = styled.View``;
+
+const UserStat = styled.View``;
+
+const UserStatInfo = styled.Text``;
+const UserStatLabel = styled.Text``;
+
+const UserName = styled(ThemeText)`
+  font-size: 20px;
+`;
+// const UserName = styled.Text<{ isDark: boolean }>`
+//   color: ${(props) => (props.isDark ? "#FFF" : "#000")};
+// `;
+
+export default function Profile({}) {
+  // const { data } = useUser();
+  const colorScheme = useColorScheme() ?? "light";
+  const isDark = colorScheme === "dark" ? true : false;
+
   return (
-    <View className="flex justify-around">
-      <CalendarScreen />
-    </View>
+    <Card>
+      <UserInfo>
+        <UserImg>
+          {/* <Banner bgImage={bgImage} />
+          <Avatar src={avatar} /> */}
+        </UserImg>
+        <UserName isDark={isDark}>이민수</UserName>
+        <UserName isDark={isDark}>민수리</UserName>
+
+        <UserTwitter>twitter</UserTwitter>
+      </UserInfo>
+      <UserStats>
+        <UserStat>
+          <UserStatInfo>200</UserStatInfo>
+          <UserStatLabel>Followers</UserStatLabel>
+        </UserStat>
+        <UserStat>
+          <UserStatInfo>999</UserStatInfo>
+          <UserStatLabel>Likes</UserStatLabel>
+        </UserStat>
+        <UserStat>
+          <UserStatInfo>500</UserStatInfo>
+          <UserStatLabel>Tweets</UserStatLabel>
+        </UserStat>
+      </UserStats>
+    </Card>
   );
 }
-
-const Comp = () => {
-  return (
-    <View className="flex flex-col">
-      <View className="bg-cover bg-center mb-3 py-28 bg-red-500"></View>
-      <Text className="text-xl text-white">Name</Text>
-      <Text className="border-t mt-2 py-2 text-xs opacity-50 border-gray-400 text-white">
-        CaTe
-      </Text>
-    </View>
-  );
-};
