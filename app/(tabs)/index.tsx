@@ -7,16 +7,28 @@ import styled from "styled-components/native";
 // import { logUserOut } from "../apollo";
 // import { light } from "../shared";
 
-const Container = styled.View`
-  width: 100%;
-  flex: 1;
-  align-items: center;
+const Avatar = styled.Image`
+  width: 100px;
+  height: 100px;
+  border-radius: 80%;
+  border: 5px solid #fff;
+  position: absolute;
+  top: 100%;
+  /* left: 20%; */
 `;
 
-const Avatar = styled.Image`
-  width: 150px;
-  height: 150px;
-  margin-top: 100px;
+const UserInfo = styled.View`
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: gray;
+`;
+
+const Card = styled.View`
+  background-color: purple;
+  /* flex-grow: 1; */
+  /* max-width: ; */
+  margin-left: 15px;
+  margin-right: 15px;
 `;
 
 const Username = styled.Text`
@@ -57,10 +69,6 @@ const Loading = styled.ActivityIndicator`
   color: ${(props) => props.theme.fontColor};
 `;
 
-const Card = styled.View``;
-
-const UserInfo = styled.View``;
-
 const UserImg = styled.View``;
 
 const Banner = styled.View``;
@@ -87,8 +95,8 @@ export default function Profile({}) {
     <Card>
       <UserInfo>
         <UserImg>
-          {/* <Banner bgImage={bgImage} />
-          <Avatar src={avatar} /> */}
+          <Banner />
+          <Avatar source={require("@/assets/images/haerinBG.png")} />
         </UserImg>
         <UserName isDark={isDark}>이민수</UserName>
         <UserTwitter isDark={isDark}>twitter</UserTwitter>
@@ -107,6 +115,8 @@ export default function Profile({}) {
           <UserStatLabel isDark={isDark}>Tweets</UserStatLabel>
         </UserStat>
       </UserStats>
+      {/* <ThemedText style={{fontSize:"2rem"}}>kw</ThemedText> */}
+      <ThemedText style={{ fontFamily: "SpaceMono" }}>kw</ThemedText>
     </Card>
   );
 }
