@@ -4,8 +4,8 @@ import React from "react";
 import { useColorScheme } from "react-native";
 import styled from "styled-components/native";
 
-export const Container = styled.SafeAreaView`
-  background-color: #63c2d1;
+export const Container = styled.SafeAreaView<{ isDark: boolean }>`
+  background-color: ${(props) => (props.isDark ? "#000" : "#63c2d1")};
   flex: 1;
   justify-content: center;
   align-items: center;
@@ -25,24 +25,19 @@ export const CustomButton = styled.TouchableOpacity`
 `;
 export const CustomButtonText = styled(ThemeText)`
   font-size: 18px;
-  color: #fff;
 `;
 
 export const SearchUserImage = styled(ThemeText)``;
 export const SearchTextName = styled(ThemeText)`
   font-size: 16px;
-  color: #268596;
 `;
 export const SearchTextCPF = styled(ThemeText)`
-  font-size: 16px;
   color: #268596;
   font-weight: bold;
   margin-left: 5px;
 `;
 
 const UserTwitter = styled(ThemeText)`
-  font-size: 20px;
-  color: #0971f1;
   /* transition: text-decoration 0.2s; */
 `;
 const Avatar = styled.Image`
@@ -61,7 +56,7 @@ export default function Profile({}) {
   const isDark = colorScheme === "dark" ? true : false;
 
   return (
-    <Container>
+    <Container isDark={isDark}>
       {/* <AccountIcon width="100" height="100" fill="#268596" /> */}
       <Avatar source={require("@/assets/images/haerinBG.png")} />
 
