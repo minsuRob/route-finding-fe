@@ -65,21 +65,18 @@ const UserImg = styled.View``;
 
 const Banner = styled.View``;
 
-const UserTwitter = styled.Text``;
+const UserTwitter = styled(ThemeText)``;
 
 const UserStats = styled.View``;
 
 const UserStat = styled.View``;
 
-const UserStatInfo = styled.Text``;
-const UserStatLabel = styled.Text``;
+const UserStatInfo = styled(ThemeText)``;
+const UserStatLabel = styled(ThemeText)``;
 
 const UserName = styled(ThemeText)`
   font-size: 20px;
 `;
-// const UserName = styled.Text<{ isDark: boolean }>`
-//   color: ${(props) => (props.isDark ? "#FFF" : "#000")};
-// `;
 
 export default function Profile({}) {
   // const { data } = useUser();
@@ -94,22 +91,20 @@ export default function Profile({}) {
           <Avatar src={avatar} /> */}
         </UserImg>
         <UserName isDark={isDark}>이민수</UserName>
-        <UserName isDark={isDark}>민수리</UserName>
-
-        <UserTwitter>twitter</UserTwitter>
+        <UserTwitter isDark={isDark}>twitter</UserTwitter>
       </UserInfo>
       <UserStats>
         <UserStat>
-          <UserStatInfo>200</UserStatInfo>
-          <UserStatLabel>Followers</UserStatLabel>
+          <UserStatInfo isDark={isDark}>200</UserStatInfo>
+          <UserStatLabel isDark={isDark}>Followers</UserStatLabel>
         </UserStat>
         <UserStat>
-          <UserStatInfo>999</UserStatInfo>
-          <UserStatLabel>Likes</UserStatLabel>
+          <UserStatInfo isDark={isDark}>999</UserStatInfo>
+          <UserStatLabel isDark={isDark}>Likes</UserStatLabel>
         </UserStat>
         <UserStat>
-          <UserStatInfo>500</UserStatInfo>
-          <UserStatLabel>Tweets</UserStatLabel>
+          <UserStatInfo isDark={isDark}>500</UserStatInfo>
+          <UserStatLabel isDark={isDark}>Tweets</UserStatLabel>
         </UserStat>
       </UserStats>
     </Card>
