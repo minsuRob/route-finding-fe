@@ -3,87 +3,47 @@ import { ThemeText } from "@/constants/Styles";
 import React from "react";
 import { useColorScheme } from "react-native";
 import styled from "styled-components/native";
-// import { useUser } from "../hooks/useUser";
-// import { logUserOut } from "../apollo";
-// import { light } from "../shared";
 
-const Avatar = styled.Image`
-  width: 100px;
-  height: 100px;
-  border-radius: 80%;
-  border: 5px solid #fff;
-  position: absolute;
-  top: 100%;
-  /* left: 20%; */
+export const Container = styled.SafeAreaView`
+  background-color: #63c2d1;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 `;
 
-const UserInfo = styled.View`
+export const InputArea = styled.View`
   width: 100%;
-  padding-bottom: 20px;
-  background-color: gray;
+  padding: 40px;
 `;
 
-const Card = styled.View`
-  background-color: purple;
-  /* flex-grow: 1; */
-  /* max-width: ; */
-  margin-left: 15px;
-  margin-right: 15px;
+export const CustomButton = styled.TouchableOpacity`
+  height: 40px;
+  background-color: #268596;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+`;
+export const CustomButtonText = styled(ThemeText)`
+  font-size: 18px;
+  color: #fff;
 `;
 
-const Username = styled.Text`
-  margin-top: 10px;
-  font-size: 22px;
-  color: ${(props) => props.theme.fontColor};
-`;
-
-const Name = styled.Text`
-  margin-top: 4px;
+export const SearchUserImage = styled(ThemeText)``;
+export const SearchTextName = styled(ThemeText)`
   font-size: 16px;
-  color: ${(props) => props.theme.fontColor};
+  color: #268596;
 `;
-
-const Location = styled.Text`
-  margin-top: 4px;
+export const SearchTextCPF = styled(ThemeText)`
   font-size: 16px;
-  color: ${(props) => props.theme.accent};
+  color: #268596;
+  font-weight: bold;
+  margin-left: 5px;
 `;
 
-const LogoutBtn = styled.TouchableOpacity`
-  position: absolute;
-  margin-top: 4px;
-  padding: 10px;
-  background-color: #ff471a;
-  border-radius: 5px;
-  bottom: 14px;
-`;
-
-const LogoutBtnText = styled.Text`
-  font-size: 16px;
-  color: #ffffff;
-`;
-
-const Loading = styled.ActivityIndicator`
-  margin-top: 40px;
-  transform: scale(1.4, 1.4);
-  color: ${(props) => props.theme.fontColor};
-`;
-
-const UserImg = styled.View``;
-
-const Banner = styled.View``;
-
-const UserTwitter = styled(ThemeText)``;
-
-const UserStats = styled.View``;
-
-const UserStat = styled.View``;
-
-const UserStatInfo = styled(ThemeText)``;
-const UserStatLabel = styled(ThemeText)``;
-
-const UserName = styled(ThemeText)`
+const UserTwitter = styled(ThemeText)`
   font-size: 20px;
+  color: #0971f1;
+  /* transition: text-decoration 0.2s; */
 `;
 
 export default function Profile({}) {
@@ -92,31 +52,17 @@ export default function Profile({}) {
   const isDark = colorScheme === "dark" ? true : false;
 
   return (
-    <Card>
-      <UserInfo>
-        <UserImg>
-          <Banner />
-          <Avatar source={require("@/assets/images/haerinBG.png")} />
-        </UserImg>
-        <UserName isDark={isDark}>이민수</UserName>
-        <UserTwitter isDark={isDark}>twitter</UserTwitter>
-      </UserInfo>
-      <UserStats>
-        <UserStat>
-          <UserStatInfo isDark={isDark}>200</UserStatInfo>
-          <UserStatLabel isDark={isDark}>Followers</UserStatLabel>
-        </UserStat>
-        <UserStat>
-          <UserStatInfo isDark={isDark}>999</UserStatInfo>
-          <UserStatLabel isDark={isDark}>Likes</UserStatLabel>
-        </UserStat>
-        <UserStat>
-          <UserStatInfo isDark={isDark}>500</UserStatInfo>
-          <UserStatLabel isDark={isDark}>Tweets</UserStatLabel>
-        </UserStat>
-      </UserStats>
-      {/* <ThemedText style={{fontSize:"2rem"}}>kw</ThemedText> */}
-      <ThemedText style={{ fontFamily: "SpaceMono" }}>kw</ThemedText>
-    </Card>
+    <Container>
+      {/* <AccountIcon width="100" height="100" fill="#268596" /> */}
+
+      <SearchTextName isDark={isDark}>이민수</SearchTextName>
+      <SearchTextCPF isDark={isDark}>다크@naver.com</SearchTextCPF>
+
+      <InputArea>
+        <CustomButton>
+          <CustomButtonText isDark={isDark}>Log Out</CustomButtonText>
+        </CustomButton>
+      </InputArea>
+    </Container>
   );
 }
