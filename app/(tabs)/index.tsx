@@ -31,8 +31,6 @@ const ButtonBox = styled.View`
   width: 100%;
 `;
 
-const UserProfileContainer = styled.View``;
-
 const UserInfoBox = styled.View`
   margin: 10px 0;
   align-items: center;
@@ -56,7 +54,8 @@ const Email = styled.Text`
 `;
 
 const FollowContainer = styled.View`
-  max-width: 300px;
+  max-width: 500px;
+  width: 90%;
   padding: 8px 0;
   flex-direction: row;
   align-items: center;
@@ -77,7 +76,7 @@ const FollowValue = styled.Text`
 `;
 
 const FollowContentsBox = styled.TouchableOpacity`
-  width: 33%;
+  width: 20%;
   border-color: ${(props) => props.theme.accent};
 `;
 
@@ -90,36 +89,35 @@ export default function Profile({}) {
   return (
     <Container isDark={isDark}>
       {/* <AccountIcon width="100" height="100" fill="#268596" /> */}
-      <UserProfileContainer>
+
+      <FollowContainer>
         <Avatar source={require("@/assets/images/haerinBG.png")} />
-        <UserInfoBox>
-          <Username>vanes kang</Username>
-          <Name>강해린</Name>
-          <Email>hrkang@gmail.com</Email>
-          <ButtonBox>{/* <Button text={"프로필 수정하기"} /> */}</ButtonBox>
-          <ButtonBox style={{ marginTop: 5 }}>
-            {/* <Button redBgColor={true} text={"로그아웃"} /> */}
-          </ButtonBox>
-        </UserInfoBox>
-        <FollowContainer>
-          <FollowContentsBox
-            style={{ borderRightWidth: 1, borderStyle: "solid" }}
-          >
-            <FollowText>팔로워</FollowText>
-            <FollowValue>200</FollowValue>
-          </FollowContentsBox>
-          <FollowContentsBox
-            style={{ borderRightWidth: 1, borderStyle: "solid" }}
-          >
-            <FollowText>팔로워</FollowText>
-            <FollowValue>200</FollowValue>
-          </FollowContentsBox>
-          <FollowContentsBox>
-            <FollowText>팔로잉</FollowText>
-            <FollowValue>100</FollowValue>
-          </FollowContentsBox>
-        </FollowContainer>
-      </UserProfileContainer>
+        <FollowContentsBox
+          style={{ borderRightWidth: 1, borderStyle: "solid" }}
+        >
+          <FollowText>팔로워</FollowText>
+          <FollowValue>200</FollowValue>
+        </FollowContentsBox>
+        <FollowContentsBox
+          style={{ borderRightWidth: 1, borderStyle: "solid" }}
+        >
+          <FollowText>팔로워</FollowText>
+          <FollowValue>200</FollowValue>
+        </FollowContentsBox>
+        <FollowContentsBox>
+          <FollowText>팔로잉</FollowText>
+          <FollowValue>100</FollowValue>
+        </FollowContentsBox>
+      </FollowContainer>
+      <UserInfoBox>
+        <Username>vanes kang</Username>
+        <Name>강해린</Name>
+        <Email>hrkang@gmail.com</Email>
+        <ButtonBox>{/* <Button text={"프로필 수정하기"} /> */}</ButtonBox>
+        <ButtonBox style={{ marginTop: 5 }}>
+          {/* <Button redBgColor={true} text={"로그아웃"} /> */}
+        </ButtonBox>
+      </UserInfoBox>
     </Container>
   );
 }
