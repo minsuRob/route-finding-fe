@@ -45,6 +45,15 @@ const UserTwitter = styled(ThemeText)`
   color: #0971f1;
   /* transition: text-decoration 0.2s; */
 `;
+const Avatar = styled.Image`
+  width: 100px;
+  height: 100px;
+  border-radius: 80%;
+  border: 5px solid #fff;
+  /* position: absolute; */
+  /* top: 100%; */
+  /* left: 50%; */
+`;
 
 export default function Profile({}) {
   // const { data } = useUser();
@@ -54,6 +63,7 @@ export default function Profile({}) {
   return (
     <Container>
       {/* <AccountIcon width="100" height="100" fill="#268596" /> */}
+      <Avatar source={require("@/assets/images/haerinBG.png")} />
 
       <SearchTextName isDark={isDark}>이민수</SearchTextName>
       <SearchTextCPF isDark={isDark}>다크@naver.com</SearchTextCPF>
