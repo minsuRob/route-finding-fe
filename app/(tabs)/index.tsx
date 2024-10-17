@@ -96,8 +96,9 @@ export default function Profile({}) {
         <FollowContentsBox
           style={{ borderRightWidth: 1, borderStyle: "solid" }}
         >
-          <FollowText>팔로워</FollowText>
-          <FollowValue>200</FollowValue>
+          <FollowText>{translate("profile.exerciseDate")}</FollowText>
+
+          <FollowValue>200 🗓️</FollowValue>
         </FollowContentsBox>
         <FollowContentsBox
           style={{ borderRightWidth: 1, borderStyle: "solid" }}
@@ -106,7 +107,7 @@ export default function Profile({}) {
           <FollowValue>200</FollowValue>
         </FollowContentsBox>
         <FollowContentsBox>
-          <FollowText>팔로잉</FollowText>
+          <FollowText>{translate("profile.following")}</FollowText>
           <FollowValue>100</FollowValue>
         </FollowContentsBox>
       </FollowContainer>

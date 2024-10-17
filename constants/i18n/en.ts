@@ -7,6 +7,8 @@ const en = {
   },
   profile: {
     followers: "followers",
+    following: "following",
+    exerciseDate: "exerciseDate",
   },
   // sample ignite
   welcomeScreen: {
