@@ -39,13 +39,13 @@ const UserInfoBox = styled.View`
 
 const Username = styled.Text`
   font-weight: bold;
-  font-size: 25;
+  font-size: 25px;
   color: ${(props) => props.theme.accent};
 `;
 
 const Name = styled.Text`
   font-weight: bold;
-  font-size: 18;
+  font-size: 18px;
   color: ${(props) => props.theme.grayColor};
 `;
 
