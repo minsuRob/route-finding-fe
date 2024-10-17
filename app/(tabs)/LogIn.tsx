@@ -4,13 +4,14 @@ import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import AuthButton from "@/components/auth/AuthButton";
 import AuthLayout from "@/components/auth/AuthLayout";
-import { TextInput } from "@/components/auth/AuthShared";
 import {
   loginMutation,
   loginMutationVariables,
 } from "../__generated__/loginMutation";
 import { logUserIn } from "@/constants/apollo/apollo";
-import { Alert } from "react-native";
+import { TextInput } from "react-native";
+import styled from "styled-components/native";
+import { Input } from "@/components/auth/AuthShared";
 
 const LOGIN_MUTATION = gql`
   mutation loginMutation($loginInput: LoginInput!) {
@@ -70,20 +71,27 @@ export default function Login() {
     register("password", { required: true });
   }, [register]);
 
+  const onNext = (nextOne: React.MutableRefObject<TextInput | null>) => {
+    nextOne?.current?.focus();
+  };
+
+  const passwordRef = React.useRef<TextInput | null>(null);
+
   return (
     <AuthLayout>
-      <TextInput
+      <Input
         value={watch("email")}
         placeholder="Username"
         returnKeyType="next"
         autoCapitalize="none"
         placeholderTextColor={"rgba(255, 255, 255, 0.6)"}
-        // onSubmitEditing={() => onNext(passwordRef)}
+        onSubmitEditing={() => onNext(passwordRef)}
         onChangeText={(text) => setValue("email", text)}
       />
-      <TextInput
+      <Input
         value={watch("password")}
-        // ref={passwordRef}
+        // ref={passwordRef} // just.. work..
+        // ref={(ref: any) => (passwordRef.current = ref)}
         placeholder="Password"
         secureTextEntry
         returnKeyType="done"
