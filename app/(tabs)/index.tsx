@@ -1,4 +1,5 @@
 import { ThemedText } from "@/components/ThemedText";
+import { translate } from "@/constants/i18n";
 import { ThemeText } from "@/constants/Styles";
 import React from "react";
 import { TouchableOpacity, useColorScheme } from "react-native";
@@ -101,7 +102,7 @@ export default function Profile({}) {
         <FollowContentsBox
           style={{ borderRightWidth: 1, borderStyle: "solid" }}
         >
-          <FollowText>팔로워</FollowText>
+          <FollowText>{translate("profile.followers")}</FollowText>
           <FollowValue>200</FollowValue>
         </FollowContentsBox>
         <FollowContentsBox>
@@ -111,7 +112,7 @@ export default function Profile({}) {
       </FollowContainer>
       <UserInfoBox>
         <Username>vanes kang</Username>
-        <Name>강해린</Name>
+        <Name>{translate("welcomeScreen.exciting")}</Name>
         <Email>hrkang@gmail.com</Email>
         <ButtonBox>{/* <Button text={"프로필 수정하기"} /> */}</ButtonBox>
         <ButtonBox style={{ marginTop: 5 }}>
