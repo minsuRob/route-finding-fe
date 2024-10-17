@@ -9,6 +9,8 @@ import {
   loginMutation,
   loginMutationVariables,
 } from "../__generated__/loginMutation";
+import { logUserIn } from "@/constants/apollo/apollo";
+import { Alert } from "react-native";
 
 const LOGIN_MUTATION = gql`
   mutation loginMutation($loginInput: LoginInput!) {
@@ -33,20 +35,13 @@ export default function Login() {
         // username: params?.username,
       },
     });
-  const passwordRef = useRef();
-  // const { register, getValues, errors, handleSubmit, formState } =
-  //   useForm<ILoginForm>({
-  //     mode: "onChange",
-  //   });
 
-  const onCompleted = (data: loginMutation) => {
+  const onCompleted = async (data: loginMutation) => {
     const {
       login: { ok, token },
     } = data;
     if (ok && token) {
-      // localStorage.setItem(LOCALSTORAGE_TOKEN, token);
-      // authTokenVar(token);
-      // isLoggedInVar(true);
+      await logUserIn(token);
     }
   };
 
