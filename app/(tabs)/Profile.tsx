@@ -1,6 +1,7 @@
 import { ThemedText } from "@/components/ThemedText";
 import { translate } from "@/constants/i18n";
 import { ThemeText } from "@/constants/Styles";
+import { useMe } from "@/hooks/useMe";
 import { gql } from "@apollo/client";
 import React from "react";
 import { TouchableOpacity, useColorScheme } from "react-native";
@@ -76,6 +77,8 @@ const FollowContentsBox = styled.TouchableOpacity`
 export default function Profile({}) {
   const colorScheme = useColorScheme() ?? "light";
   const isDark = colorScheme === "dark" ? true : false;
+  const { data: userData } = useMe();
+  console.log(userData);
 
   return (
     <Container isDark={isDark}>

@@ -22,10 +22,14 @@ const DARK_MODE = "dark_mode";
 
 const authLink = setContext((_, { headers }) => {
   const token = tokenVar();
+  console.log(isLoggedInVar());
+  console.log(token);
+  console.log("token");
+
   return {
     headers: {
       ...headers,
-      ...(token !== "" && { "x-token": token }),
+      ...(token !== "" && { "x-jwt": token }),
     },
   };
 });
