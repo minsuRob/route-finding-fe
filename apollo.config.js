@@ -1,6 +1,11 @@
 module.exports = {
   client: {
-    includes: ["./**/*.{tsx,ts}"],
+    includes: [
+      "app/**/*.{tsx,ts}",
+      "hooks/**/*.{tsx,ts}",
+      "components/**/*.{tsx,ts}",
+    ],
+    //todo: need to improve the path
     tagName: "gql",
     service: {
       name: "route-finding-be",

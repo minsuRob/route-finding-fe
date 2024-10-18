@@ -1,6 +1,7 @@
 import { ThemedText } from "@/components/ThemedText";
 import { translate } from "@/constants/i18n";
 import { ThemeText } from "@/constants/Styles";
+import { gql } from "@apollo/client";
 import React from "react";
 import { TouchableOpacity, useColorScheme } from "react-native";
 import styled from "styled-components/native";
@@ -17,16 +18,7 @@ const Avatar = styled.Image`
   height: 100px;
   border-radius: 80%;
   border: 5px solid #fff;
-  /* position: absolute; */
-  /* top: 100%; */
-  /* left: 50%; */
 `;
-
-// interface MyProfileProps {
-//   navigation: NavigationProp<RootSharedStackParamList, "Profile">;
-// }
-
-//////////
 
 const ButtonBox = styled.View`
   width: 100%;
@@ -82,15 +74,11 @@ const FollowContentsBox = styled.TouchableOpacity`
 `;
 
 export default function Profile({}) {
-  // const { data } = useUser();
   const colorScheme = useColorScheme() ?? "light";
   const isDark = colorScheme === "dark" ? true : false;
-  // <Avatar source={require("@/assets/images/haerinBG.png")} />
 
   return (
     <Container isDark={isDark}>
-      {/* <AccountIcon width="100" height="100" fill="#268596" /> */}
-
       <FollowContainer>
         <Avatar source={require("@/assets/images/haerinBG.png")} />
         <FollowContentsBox
