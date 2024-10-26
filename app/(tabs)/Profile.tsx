@@ -78,7 +78,6 @@ export default function Profile({}) {
   const colorScheme = useColorScheme() ?? "light";
   const isDark = colorScheme === "dark" ? true : false;
   const { data: userData } = useMe();
-  console.log(userData);
 
   return (
     <Container isDark={isDark}>
