@@ -58,7 +58,7 @@ export const client = new ApolloClient({
 
 const TOKEN = "token";
 export const logUserIn = async (token: string) => {
-  await AsyncStorage.setItem(TOKEN, JSON.stringify(token));
+  await AsyncStorage.setItem(TOKEN, token);
   isLoggedInVar(true);
   tokenVar(token);
 };
