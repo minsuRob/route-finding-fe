@@ -10,7 +10,7 @@ const ko: Translations = {
   profile: {
     followers: "팔로워",
     following: "팔로잉",
-    exerciseDate: "클 시작일",
+    startedAt: "클 시작일",
   },
   // sample ignite
   welcomeScreen: {

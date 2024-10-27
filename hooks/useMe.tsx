@@ -11,7 +11,7 @@ const ME_QUERY = gql`
       reach
       height
       follower
-      followering
+      following
       instaId
       startedAt
       isAllowAuth
