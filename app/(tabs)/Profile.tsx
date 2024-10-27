@@ -86,25 +86,25 @@ export default function Profile({}) {
         <FollowContentsBox
           style={{ borderRightWidth: 1, borderStyle: "solid" }}
         >
-          <FollowText>{translate("profile.exerciseDate")}</FollowText>
+          <FollowText>{translate("profile.startedAt")}</FollowText>
 
-          <FollowValue>200 🗓️</FollowValue>
+          <FollowValue>{userData?.me.startedAt} 🗓️</FollowValue>
         </FollowContentsBox>
         <FollowContentsBox
           style={{ borderRightWidth: 1, borderStyle: "solid" }}
         >
           <FollowText>{translate("profile.followers")}</FollowText>
-          <FollowValue>200</FollowValue>
+          <FollowValue>{userData?.me.follower}</FollowValue>
         </FollowContentsBox>
         <FollowContentsBox>
           <FollowText>{translate("profile.following")}</FollowText>
-          <FollowValue>100</FollowValue>
+          <FollowValue>{userData?.me.following}</FollowValue>
         </FollowContentsBox>
       </FollowContainer>
       <UserInfoBox>
-        <Username>vanes kang</Username>
+        <Username>{userData?.me.email}</Username>
         <Name>{translate("welcomeScreen.exciting")}</Name>
-        <Email>hrkang@gmail.com</Email>
+        <Email>{userData?.me.instaId}</Email>
         <ButtonBox>{/* <Button text={"프로필 수정하기"} /> */}</ButtonBox>
         <ButtonBox style={{ marginTop: 5 }}>
           {/* <Button redBgColor={true} text={"로그아웃"} /> */}
