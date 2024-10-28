@@ -1,0 +1,3335 @@
+{
+  "results": [
+    {
+      "id": 1147,
+      "name": "스톤즈클라이밍",
+      "address": "서울 관악구 남부순환로 1990-3",
+      "lat": 37.475069,
+      "lng": 126.970141,
+      "phone_number": "010-3727-7398",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "스톤즈클라이밍",
+      "hits": 334,
+      "created_at": "2024-07-12T12:48:01.657+09:00",
+      "updated_at": "2024-09-02T12:52:15.862+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 3768,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "BXkvAwNsmA9EoTg7c5na2BJs",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/tytio64coih2bmg7wjjyat3rn9ak",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 90,
+          "name": "관악구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1077,
+      "name": "클라임 어스 미사점",
+      "address": "경기 하남시 미사강변동로 81",
+      "lat": 37.56225,
+      "lng": 127.192719,
+      "phone_number": "0507-1390-5963",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "클라임 어스 미사점",
+      "hits": 197,
+      "created_at": "2024-05-15T18:01:33.263+09:00",
+      "updated_at": "2024-08-29T16:07:06.860+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 8803,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "8MqTiZutrijWKoRW9AXX4moa",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/q9emfr1h9oa9ndbbry8h0kcbb1hr",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 169,
+          "name": "하남시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "산타클라이밍",
+      "address": "서울특별시 동대문구 신설동 103-15 마리아바이오텍 지하 1층",
+      "lat": 37.574313,
+      "lng": 127.024759,
+      "phone_number": "02-2233-5157",
+      "open_hour": "매일 11:00 - 22:30 매월 첫째, 셋째주 일요일 휴무",
+      "reservation_method": null,
+      "homepage": "https://santaclimbinggym.modoo.at/",
+      "desc": "플랫, 360, 치타 등 최고급 대회용 홀드를 이용한 V1 ~ V8 이상의 벨런스, 파워, 다이노 등 다양한 볼더링 문제와 각도별 지구력 문제가 준비되어있습니다.\r\n\r\n\u003e산타클라이밍에서 실내암벽등반 시작하기\r\n스포츠 클라이밍이란? \r\n실내, 실외에 만들어진 인공암벽을 오르는 스포츠를 말하며 인공벽에 설치된 홀드를 잡고 \r\n목표지점까지 도달하는 운동입니다.\r\n일상생활에서 사용하지 않는 근육을 주로 사용하는 전신운동으로, 자연스러운 체중감량 \r\n효과와 더불어 완력과 유연성, 균형감각, 지구력, 순발력 등을 골고루 향상시켜줍니다.\r\n누군가와 경쟁해야 하는 운동이 아닌 스스로가 설정한 목표지점까지 오르고 버티고 완등!!\r\n남녀노소 누구나 도전할 수 있으며 오롯이 자신의 의지로 정상을 향해 등반하는 매력적인 \r\n스포츠클라이밍은 당신에게 희열과 성취감을 선물할 것입니다.\r\n암벽화 한켤레면 기본적인 운동준비 완료!!\r\n망설이지 말고 지금 산타클라이밍에서 도전해 보세요!",
+      "username": null,
+      "hits": 216,
+      "created_at": "2021-12-02T00:21:00.476+09:00",
+      "updated_at": "2023-10-02T13:46:23.987+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 30546,
+      "category": "gym",
+      "state": "is_public",
+      "favorite_sports": null,
+      "public_id": "9U7R1vUkcx6VfdozFVtL7QSk",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/l9p6r3gg42hsd7sn4s4dzcegqzm9",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 75,
+          "name": "동대문구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "name": "픽스볼더 클라이밍",
+      "address": "제주특별자치도 제주시 삼무로 41",
+      "lat": 33.490213,
+      "lng": 126.491219,
+      "phone_number": "064-702-9259",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "픽스볼더 클라이밍",
+      "hits": 308,
+      "created_at": "2022-12-20T10:44:49.696+09:00",
+      "updated_at": "2023-08-14T14:10:12.578+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 30161,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "YFaV6PZpMPo1aicZi2vWxZ2w",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/w3l3exkonu3fw51eup99a72mylt1",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 310,
+          "name": "제주시",
+          "parent": {
+            "id": 309,
+            "name": "제주"
+          }
+        }
+      ]
+    },
+    {
+      "id": 825,
+      "name": "볼더그라운드",
+      "address": "서울 마포구 잔다리로 31 B1층",
+      "lat": 37.551214,
+      "lng": 126.919676,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "볼더그라운드",
+      "hits": 541,
+      "created_at": "2023-11-26T13:32:43.760+09:00",
+      "updated_at": "2023-12-13T01:00:07.096+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 28336,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "4SmhdsQ8XoK54gNMtHSXPcWi",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/2r6to3j0gwmovdogkdk3o7noeo9c",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 83,
+          "name": "마포구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "name": "UP클라이밍짐(업클라이밍)",
+      "address": "울산 남구 대학로 130 주헌빌딩(구,성진빌딩)",
+      "lat": 35.546177,
+      "lng": 129.261651,
+      "phone_number": "052-236-7399",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "UP클라이밍짐(업클라이밍)",
+      "hits": 132,
+      "created_at": "2023-06-25T13:47:45.937+09:00",
+      "updated_at": "2023-10-02T15:11:50.122+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 10933,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "v3P98Ak7LLzzAwiaagXyrgjJ",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/6fpwfuke3ro0tema11tfu1ms1jnp",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 146,
+          "name": "남구",
+          "parent": {
+            "id": 144,
+            "name": "울산"
+          }
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "name": "홀드야미 클라이밍",
+      "address": "경남 김해시 김해대로 2232",
+      "lat": 35.22972,
+      "lng": 128.872311,
+      "phone_number": "055-312-9578",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "홀드야미 클라이밍",
+      "hits": 167,
+      "created_at": "2023-02-14T22:29:51.986+09:00",
+      "updated_at": "2023-10-02T13:03:04.053+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 7905,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "4nLdQyumYQfWbn3xDBk5x9zF",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/48zq1thiblzxgbutd5l1wk300pzb",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 295,
+          "name": "김해시",
+          "parent": {
+            "id": 290,
+            "name": "경남"
+          }
+        }
+      ]
+    },
+    {
+      "id": 358,
+      "name": "루트클라이밍",
+      "address": "서울 송파구 양재대로71길 5-14",
+      "lat": 37.509876,
+      "lng": 127.125541,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "루트클라이밍",
+      "hits": 170,
+      "created_at": "2023-05-04T12:52:28.086+09:00",
+      "updated_at": "2023-06-30T04:08:50.923+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 11352,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "4XVJMrQZvUgn9ieJS4AQFmZB",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 93,
+          "name": "송파구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "name": "클라임존",
+      "address": "경남 창원시 성산구 대암로 161-20",
+      "lat": 35.212176,
+      "lng": 128.710833,
+      "phone_number": "055-267-8225",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "클라임존",
+      "hits": 100,
+      "created_at": "2023-04-20T17:23:13.158+09:00",
+      "updated_at": "2023-06-30T03:58:26.383+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 5748,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "cFSvWLVaUp3QaQoZXGmrjLHn",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 291,
+          "name": "창원시",
+          "parent": {
+            "id": 290,
+            "name": "경남"
+          }
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "name": "대구 손세동 클라이밍 칠곡",
+      "address": "대구 북구 동천로23길 8",
+      "lat": 35.942201,
+      "lng": 128.559741,
+      "phone_number": "010-4456-8447",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "대구 손세동 클라이밍 칠곡",
+      "hits": 122,
+      "created_at": "2023-06-11T18:13:41.567+09:00",
+      "updated_at": "2024-07-15T19:30:44.734+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 12657,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "18xp9qdfKdRdcfwJZxpi1SB2",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/t4se7cpvsi9h4qh3jh1uvv2ym4ia",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 117,
+          "name": "북구",
+          "parent": {
+            "id": 112,
+            "name": "대구"
+          }
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "name": "서울시산악문화체험센터",
+      "address": "서울 마포구 하늘공원로 112",
+      "lat": 37.569442,
+      "lng": 126.879927,
+      "phone_number": "02-306-8848",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "서울시산악문화체험센터",
+      "hits": 164,
+      "created_at": "2022-12-20T10:44:51.365+09:00",
+      "updated_at": "2023-07-30T15:08:38.002+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 13321,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "3XHkYom4MLEgy4iGVgikyFyh",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 83,
+          "name": "마포구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1066,
+      "name": "클라임 어스 장한평점",
+      "address": "서울 동대문구 장한로2길 63",
+      "lat": 37.561841,
+      "lng": 127.068807,
+      "phone_number": "02-3394-5962",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "클라임 어스 장한평점",
+      "hits": 166,
+      "created_at": "2024-05-06T17:14:19.776+09:00",
+      "updated_at": "2024-08-29T15:22:51.308+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 8085,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "jKx9E54VEPWC19KLqQZhbmZN",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/ei9wiqcfg54ld4ck9cjepcovxk73",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 75,
+          "name": "동대문구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 425,
+      "name": "프리월클라이밍짐",
+      "address": "경기 화성시 동탄원천로 338",
+      "lat": 37.217134,
+      "lng": 127.058636,
+      "phone_number": "031-8043-0382",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "프리월클라이밍짐",
+      "hits": 131,
+      "created_at": "2023-05-27T13:50:53.166+09:00",
+      "updated_at": "2023-10-02T17:09:28.020+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 7918,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "fVPDbn9qd2AAkmhuwAUCmaZD",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/gfrfnqx07hpde3gtoi629wb47tjg",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 157,
+          "name": "화성시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "손상원 클라이밍짐 잠실점",
+      "address": "서울 송파구 백제고분로 224",
+      "lat": 37.503157,
+      "lng": 127.091312,
+      "phone_number": "02-423-5015",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "손상원 클라이밍짐 잠실점",
+      "hits": 393,
+      "created_at": "2022-12-20T10:44:44.379+09:00",
+      "updated_at": "2024-03-06T15:59:48.051+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 17611,
+      "category": "gym",
+      "state": "out_of_business",
+      "favorite_sports": null,
+      "public_id": "cSi8T92e1Ewdp4okD4aEMjSA",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/t6bipckhov1eaisx2gnqhdgyrs82",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 93,
+          "name": "송파구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "name": "버티고 클라이밍",
+      "address": "서울 광진구 천호대로 611",
+      "lat": 37.555109,
+      "lng": 127.085767,
+      "phone_number": "02-446-6111",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "버티고 클라이밍",
+      "hits": 130,
+      "created_at": "2022-12-20T10:44:48.067+09:00",
+      "updated_at": "2023-06-30T02:29:22.275+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 5790,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "akKrFQjsoFiTGX27xX61ZTfE",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 74,
+          "name": "광진구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "name": "비숍 클라이밍",
+      "address": "서울 노원구 동일로 1393",
+      "lat": 37.652947,
+      "lng": 127.06055,
+      "phone_number": "02-936-0515",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "비숍 클라이밍",
+      "hits": 189,
+      "created_at": "2023-05-02T01:48:53.519+09:00",
+      "updated_at": "2023-06-30T04:08:37.053+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 9121,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "NkQtoEiZ8CubwcGh8yCBfe2h",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 80,
+          "name": "노원구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "name": "라온클라이밍",
+      "address": "울산 남구 삼산로 48",
+      "lat": 35.533391,
+      "lng": 129.313004,
+      "phone_number": "010-5129-2469",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "라온클라이밍",
+      "hits": 91,
+      "created_at": "2023-01-29T17:28:36.829+09:00",
+      "updated_at": "2023-06-30T02:46:37.504+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 7180,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "YVvYpA6RZdbaPwAxNaJ5KReF",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 146,
+          "name": "남구",
+          "parent": {
+            "id": 144,
+            "name": "울산"
+          }
+        }
+      ]
+    },
+    {
+      "id": 746,
+      "name": "춘천클라이밍센터",
+      "address": "강원특별자치도 춘천시 동내면 공지로 70-61",
+      "lat": 37.854808,
+      "lng": 127.751835,
+      "phone_number": "1544-6772",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "춘천클라이밍센터",
+      "hits": 111,
+      "created_at": "2023-10-16T23:37:06.564+09:00",
+      "updated_at": "2023-10-17T13:42:27.355+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 4403,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "1finpSTaYChiMSMtvgLzHych",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/zudvry9mjvc50f3ymruijdh5tkil",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 182,
+          "name": "춘천시",
+          "parent": {
+            "id": 181,
+            "name": "강원"
+          }
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "name": "D Bouldering Namba 오사카",
+      "address": "일본 〒542-0075 Osaka, Chuo Ward, Nanbasennichimae, 12−35, Swing Yoshimoto Building, 4F",
+      "lat": 34.664955,
+      "lng": 135.50266,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "D Bouldering Namba 오사카",
+      "hits": 109,
+      "created_at": "2023-07-01T13:45:17.994+09:00",
+      "updated_at": "2024-09-04T15:07:24.581+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 15184,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "m1J6EXayToEb9M6EdrbXfHJM",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/yorchkqhunkbrbm3rr5qo8bthwt7",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        },
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 316,
+          "name": "오사카",
+          "parent": {
+            "id": 312,
+            "name": "일본"
+          }
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "name": "산본클라이밍센터",
+      "address": "경기 군포시 고산로 695",
+      "lat": 37.372188,
+      "lng": 126.935269,
+      "phone_number": "031-393-7747",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "산본클라이밍센터",
+      "hits": 170,
+      "created_at": "2023-04-09T16:12:48.767+09:00",
+      "updated_at": "2023-10-02T14:30:38.375+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 4797,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "VnGCaEzS2Dd3tvxZfVjjwUoH",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/nq3i60v25n7eozn7a0571yc5j0e6",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 168,
+          "name": "군포시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 707,
+      "name": "모락산 계원예대",
+      "address": "경기도 의왕시 내손동 산80-4",
+      "lat": 37.375598,
+      "lng": 126.978411,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "모락산 계원예대",
+      "hits": 175,
+      "created_at": "2023-10-04T01:38:26.384+09:00",
+      "updated_at": "2023-10-04T01:50:13.711+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 18346,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "rL2rMTpU1TFSPMsFTYnRwVVn",
+      "category2": "outdoor",
+      "approach": "1. 계원예대 공영주차장(주말엔 주차무료)에서 반도보라 아파트 쪽으로 도로 횡단\r\n2. 건너면 바로 공원(갈미문학공원)인데, 공원으로 안쪽길을 사용해서 아파트 뒤쪽으로 이동\r\n3. 산을 끼고 걸으면서 장령농원 입구까지 이동\r\n4. 장령농원을 끼고 시계방향으로 돌아야하는데, 농원입구에서 산쪽 3갈래길중 가장 왼쪽길로 진입\r\n5. 조금 올라간 후 양갈래에서 오른쪽길을 선택 후 길을 따라 올라가며 오른쪽 편에 산령각을 찾고 그 앞으로 지나간다.\r\n6. 장령농원 펜스를 오른쪽에 두고 농원을 크게 돈다는 생각으로 이동하면 볼더지역 도착\r\n\r\n*약 15분 정도 소요됨\r\n*농원 입구부터 산령각 까지 거리와 산령각에서 볼더지역 까지 거리가 비슷하니 유의\r\n*산령각 앞을 안지나고 직전에 왼쪽 등산로길로 크게 돌아서 가다 오솔길로 빠지면 접근이 조금 편하다.\r\n",
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 176,
+          "name": "의왕시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 907,
+      "name": "홀드온 클라이밍",
+      "address": "전북특별자치도 군산시 축동2길 39-4",
+      "lat": 35.968679,
+      "lng": 126.714455,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "홀드온 클라이밍",
+      "hits": 103,
+      "created_at": "2024-01-20T03:43:17.921+09:00",
+      "updated_at": "2024-01-21T13:03:49.025+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 6415,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "kfgMYmN9P8MET9oQe2wL1SRZ",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/lnluv0fd6cxr2uk1myaz8yzxtunx",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 230,
+          "name": "군산시",
+          "parent": {
+            "id": 228,
+            "name": "전북"
+          }
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "name": "두클라이밍",
+      "address": "부산 남구 용소로19번길 10",
+      "lat": 35.135697,
+      "lng": 129.101379,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "두클라이밍",
+      "hits": 106,
+      "created_at": "2022-12-20T10:44:47.746+09:00",
+      "updated_at": "2023-09-26T15:49:56.870+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 11354,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "pQFvFJQD1DeLSexoX6Wn4pA3",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/nl1k3v07bhjbr60aw2sfzbajeu15",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 102,
+          "name": "남구",
+          "parent": {
+            "id": 95,
+            "name": "부산"
+          }
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "name": "강릉클라이밍",
+      "address": "강원특별자치도 강릉시 정원로 42",
+      "lat": 37.762267,
+      "lng": 128.877189,
+      "phone_number": "033-646-5014",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "강릉클라이밍",
+      "hits": 102,
+      "created_at": "2023-02-23T11:10:14.926+09:00",
+      "updated_at": "2023-06-30T03:05:23.827+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 28918,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "besMfjNEouuz95gR3rUvfBm4",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 184,
+          "name": "강릉시",
+          "parent": {
+            "id": 181,
+            "name": "강원"
+          }
+        }
+      ]
+    },
+    {
+      "id": 816,
+      "name": "핸드워크 클라이밍 봉선점",
+      "address": "광주 남구 제석로 79 4층",
+      "lat": 35.121316,
+      "lng": 126.907007,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "핸드워크 클라이밍 봉선점",
+      "hits": 69,
+      "created_at": "2023-11-20T16:48:06.260+09:00",
+      "updated_at": "2023-12-13T00:56:30.727+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 14263,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "VV1UZPq9VpPtCEXWYhFUiWZu",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/or6v25rfsx9ztchpeyg8eg6j0e60",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 135,
+          "name": "남구",
+          "parent": {
+            "id": 132,
+            "name": "광주"
+          }
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "name": "뚝섬한강공원 인공암벽장",
+      "address": "서울 광진구 강변북로 68",
+      "lat": 37.532154,
+      "lng": 127.062365,
+      "phone_number": "02-3780-0521",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "뚝섬한강공원 인공암벽장",
+      "hits": 105,
+      "created_at": "2023-03-03T03:02:46.306+09:00",
+      "updated_at": "2023-06-30T03:47:20.473+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 8287,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "cLjMqgsbPQ3Mm67Y5a7XH12x",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 74,
+          "name": "광진구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "name": "클라임웍스",
+      "address": "서울 영등포구 버드나루로 85",
+      "lat": 37.525759,
+      "lng": 126.908854,
+      "phone_number": "02-2676-8848",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "클라임웍스",
+      "hits": 151,
+      "created_at": "2022-12-20T10:44:49.217+09:00",
+      "updated_at": "2023-06-30T02:30:34.546+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 10398,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "dvrxcnvWPMv9MrxRonSn2wLC",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 88,
+          "name": "영등포구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "name": "브릭스클라이밍짐",
+      "address": "서울 송파구 중대로 130",
+      "lat": 37.494245,
+      "lng": 127.122605,
+      "phone_number": "070-7775-1133",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "브릭스클라이밍짐",
+      "hits": 290,
+      "created_at": "2023-01-29T17:28:38.026+09:00",
+      "updated_at": "2023-06-30T02:47:42.207+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 5623,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "RxfHB17F5oYudLxVwyxN5vCf",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 93,
+          "name": "송파구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "name": "두클라이밍 김해점",
+      "address": "경남 김해시 내외로77번길 12",
+      "lat": 35.235607,
+      "lng": 128.8661,
+      "phone_number": "010-3518-9557",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "두클라이밍 김해점",
+      "hits": 100,
+      "created_at": "2023-07-03T02:07:43.925+09:00",
+      "updated_at": "2023-10-02T14:34:58.029+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 4017,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "W9FiRoCtGvuwgpCkoPXmb3Cd",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/c9hmrp7jibfkcb3gijb24khi2e9d",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        },
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 295,
+          "name": "김해시",
+          "parent": {
+            "id": 290,
+            "name": "경남"
+          }
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "name": "킹콩클라이밍 수원",
+      "address": "경기 수원시 팔달구 경수대로 572",
+      "lat": 37.276718,
+      "lng": 127.030872,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "킹콩클라이밍 수원",
+      "hits": 147,
+      "created_at": "2023-02-26T14:57:59.445+09:00",
+      "updated_at": "2023-06-30T03:07:37.903+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 5390,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "sLVKAHowHHqcWjywrsepk3Ci",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 152,
+          "name": "수원시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "name": "클라임라운지",
+      "address": "광주 서구 금화로383번길 10",
+      "lat": 35.142694,
+      "lng": 126.887175,
+      "phone_number": "062-362-8848",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "클라임라운지",
+      "hits": 133,
+      "created_at": "2023-02-02T10:38:00.434+09:00",
+      "updated_at": "2023-06-30T02:51:39.276+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 6036,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "SFxBYCBH89EoWYjCyi5Zce7s",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 134,
+          "name": "서구",
+          "parent": {
+            "id": 132,
+            "name": "광주"
+          }
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "name": "전주 올라클라이밍센터",
+      "address": "전북 전주시 덕진구 송천중앙로 154",
+      "lat": 35.860459,
+      "lng": 127.121721,
+      "phone_number": "063-251-6777",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "전주 올라클라이밍센터",
+      "hits": 132,
+      "created_at": "2023-05-19T13:34:30.608+09:00",
+      "updated_at": "2023-11-20T11:39:00.922+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 5374,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "azn4BCdYiacxevq8GQekRjQH",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/nm9mhkskrdhwww5rlqg3f5a07e4e",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 229,
+          "name": "전주시",
+          "parent": {
+            "id": 228,
+            "name": "전북"
+          }
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "name": "클라이밍88",
+      "address": "서울 강서구 공항대로 376",
+      "lat": 37.556843,
+      "lng": 126.847191,
+      "phone_number": "02-2600-8920",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "클라이밍88",
+      "hits": 129,
+      "created_at": "2023-05-02T20:04:42.675+09:00",
+      "updated_at": "2023-06-30T04:08:41.593+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 7837,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "SkLEp7tvHJTcrojZXXfWCpKG",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        },
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 85,
+          "name": "강서구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "name": "클럽스파이더 클라이밍 사상점",
+      "address": "부산 사상구 학감대로252번길 59",
+      "lat": 35.152719,
+      "lng": 128.99364,
+      "phone_number": "010-8991-7055",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "클럽스파이더 클라이밍 사상점",
+      "hits": 91,
+      "created_at": "2023-03-03T03:02:44.962+09:00",
+      "updated_at": "2023-06-30T03:07:59.764+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 19922,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "DGu6XsG38aTbvz4BcTjxru8H",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 110,
+          "name": "사상구",
+          "parent": {
+            "id": 95,
+            "name": "부산"
+          }
+        }
+      ]
+    },
+    {
+      "id": 616,
+      "name": "Bare Hands Climbing Gym 베어핸즈(후쿠오카)",
+      "address": "일본 〒814-0133 Fukuoka, Jonan Ward, 城南区4, 七隈8-4-8 七隈ファミリーボウル内",
+      "lat": 33.55182,
+      "lng": 130.365067,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "일본 후쿠오카 암장",
+      "username": "Bare Hands Climbing Gym 베어핸즈(후쿠오카)",
+      "hits": 86,
+      "created_at": "2023-08-13T08:13:02.137+09:00",
+      "updated_at": "2023-10-29T12:55:40.376+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 15371,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "HUiHFY2nnv1Ls2gWJ4vBd36B",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/a3ldculxljgggliwuy4p5jqafnp8",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 325,
+          "name": "후쿠오카",
+          "parent": {
+            "id": 312,
+            "name": "일본"
+          }
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "name": "포항스파이더클럽",
+      "address": "경북 포항시 남구 오천읍 남원로 28",
+      "lat": 35.970934,
+      "lng": 129.406792,
+      "phone_number": "054-276-0513",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "포항스파이더클럽",
+      "hits": 133,
+      "created_at": "2023-01-30T12:36:13.374+09:00",
+      "updated_at": "2023-06-30T02:48:45.949+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 31139,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "BkSZZxeS4bkNjWeWGczPN4uS",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 267,
+          "name": "포항시",
+          "parent": {
+            "id": 266,
+            "name": "경북"
+          }
+        }
+      ]
+    },
+    {
+      "id": 335,
+      "name": "초크업 클라이밍센터 월성점",
+      "address": "대구 달서구 상원로 184-8 3층",
+      "lat": 35.823727,
+      "lng": 128.527384,
+      "phone_number": "053-245-9190",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "초크업 클라이밍센터 월성점",
+      "hits": 81,
+      "created_at": "2023-04-21T15:57:15.739+09:00",
+      "updated_at": "2023-10-29T13:50:16.609+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 23457,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "SwBBPXS8ydH9FPYLAug5627T",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/7y9pf2o2foze9c6q2tntbjizspym",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 119,
+          "name": "달서구",
+          "parent": {
+            "id": 112,
+            "name": "대구"
+          }
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "name": "락오디세이 동래점",
+      "address": "부산 동래구 안남로31번길 6",
+      "lat": 35.194518,
+      "lng": 129.095918,
+      "phone_number": "010-4190-4592",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "락오디세이 동래점",
+      "hits": 118,
+      "created_at": "2022-12-20T10:44:47.889+09:00",
+      "updated_at": "2023-10-02T13:08:20.374+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 13402,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "TR6ijeLTacD3vxM7Gf7n9cpC",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/3nv5gt9shtknpa35cdt7msqv2v2x",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 101,
+          "name": "동래구",
+          "parent": {
+            "id": 95,
+            "name": "부산"
+          }
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "name": "볼리 클라이밍",
+      "address": "인천 남동구 서창남순환로216번길 30",
+      "lat": 37.422816,
+      "lng": 126.749081,
+      "phone_number": "032-463-5015",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "볼리 클라이밍",
+      "hits": 104,
+      "created_at": "2023-07-02T14:24:55.774+09:00",
+      "updated_at": "2023-09-05T04:34:09.297+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 6977,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "nDEjdRc6EBmKYKzeYSZaY7vx",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 126,
+          "name": "남동구",
+          "parent": {
+            "id": 121,
+            "name": "인천"
+          }
+        }
+      ]
+    },
+    {
+      "id": 381,
+      "name": "한스클라이밍 전주",
+      "address": "전북 전주시 덕진구 견훤로 146",
+      "lat": 35.825159,
+      "lng": 127.161554,
+      "phone_number": "010-4546-1837",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "한스클라이밍 전주",
+      "hits": 74,
+      "created_at": "2023-05-15T13:44:07.809+09:00",
+      "updated_at": "2023-06-30T04:23:22.201+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 3861,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "9GFqktVs8Cz7AS14YQXEYorx",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 229,
+          "name": "전주시",
+          "parent": {
+            "id": 228,
+            "name": "전북"
+          }
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "name": "타잔101 클라이밍 압구정점",
+      "address": "서울 강남구 압구정로28길 11 B1",
+      "lat": 37.525803,
+      "lng": 127.027843,
+      "phone_number": "02-511-1013",
+      "open_hour": "평일 11:00 - 23:00\n주말 11:00 - 19:00",
+      "reservation_method": null,
+      "homepage": "http://tarzan101.com",
+      "desc": "Tarzan101은?\n\n101은 기초과정의, 입문의, 초보의, 기본의 사전적 의미를 가지고 있습니다.\n그리고 두 팔을 들고 있는 얼굴모양과 유사하여 클라이밍의 가장 기본적인 동작으로 해석해보았습니다.\n즉, tarzan101은 타잔처럼 나무, 바위, 물 등에 얽매이지 않고 다양한 오름짓을 즐기며 놀기 위한 공간입니다.\n\n아이스클라이밍 국가대표이자 1급 루트세터인 양명욱코치가 직접 세팅한 재미있는 볼더링 문제가 특징입니다.\n특히 수원본점인 1호점은 다수의 볼더링 문제가 주를 이루고 있어 즐기시기에 좋습니다.",
+      "username": null,
+      "hits": 197,
+      "created_at": "2021-12-15T14:47:43.121+09:00",
+      "updated_at": "2023-06-20T05:32:56.570+09:00",
+      "blog_link": "https://blog.naver.com/urbanyang",
+      "instagram_link": "https://www.instagram.com/tarzan101_climbing/",
+      "kakao_link": null,
+      "views": 48421,
+      "category": "gym",
+      "state": "is_public",
+      "favorite_sports": null,
+      "public_id": "LvgnfTXAgFa3mY4VwyeKWXk8",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 92,
+          "name": "강남구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "name": "성남스파이더클라이밍",
+      "address": "경기 성남시 중원구 둔촌대로 106",
+      "lat": 37.429233,
+      "lng": 127.130514,
+      "phone_number": "031-753-8848",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "성남스파이더클라이밍",
+      "hits": 60,
+      "created_at": "2023-05-04T15:21:14.441+09:00",
+      "updated_at": "2023-06-30T04:09:49.398+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 51867,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "JfbLn6D3RVn7ap7oqbMbDy1G",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 155,
+          "name": "성남시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "name": "다이노 클라이밍짐",
+      "address": "경기 남양주시 다산중앙로146번길 12-14 7층",
+      "lat": 37.625218,
+      "lng": 127.154679,
+      "phone_number": "010-9929-4864",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "다이노 클라이밍짐",
+      "hits": 90,
+      "created_at": "2023-05-05T23:39:27.719+09:00",
+      "updated_at": "2023-09-05T04:28:58.871+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 7331,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "185agxF5q8exUJqn3oZKMN23",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 159,
+          "name": "남양주시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "name": "판교공원 인공암벽장",
+      "address": "경기 성남시 분당구 판교동 553",
+      "lat": 37.397069,
+      "lng": 127.096949,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "판교공원 인공암벽장",
+      "hits": 62,
+      "created_at": "2023-03-03T03:02:45.707+09:00",
+      "updated_at": "2023-06-30T03:11:27.944+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 6641,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "zadAwd3rkhnibRbjagg6z8hw",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 155,
+          "name": "성남시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 343,
+      "name": "대전 청소년위캔센터",
+      "address": "대전 동구 대전천동로 508",
+      "lat": 36.326915,
+      "lng": 127.433029,
+      "phone_number": "042-222-0924",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "대전 청소년위캔센터",
+      "hits": 61,
+      "created_at": "2023-04-26T15:51:47.899+09:00",
+      "updated_at": "2023-07-01T00:46:47.685+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 8968,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "U44TrtyabkrKz1oCiWcx4nFE",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        },
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 139,
+          "name": "동구",
+          "parent": {
+            "id": 138,
+            "name": "대전"
+          }
+        }
+      ]
+    },
+    {
+      "id": 673,
+      "name": "공주숲 클라이밍짐",
+      "address": "충남 공주시 한적2길 29 신관동 노브랜드 3층",
+      "lat": 36.476924,
+      "lng": 127.140013,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "공주숲 클라이밍짐",
+      "hits": 66,
+      "created_at": "2023-09-19T22:28:29.969+09:00",
+      "updated_at": "2023-10-02T13:20:29.683+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 12656,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "zFQqERe4R7ao9ejcwDG3XgYQ",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/tgostblobno7mdo54k1yrob320oe",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 214,
+          "name": "공주시",
+          "parent": {
+            "id": 212,
+            "name": "충남"
+          }
+        }
+      ]
+    },
+    {
+      "id": 319,
+      "name": "클라임이모션",
+      "address": "서울 강남구 논현로76길 27",
+      "lat": 37.497739,
+      "lng": 127.040982,
+      "phone_number": "02-552-2532",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "클라임이모션",
+      "hits": 88,
+      "created_at": "2023-03-16T15:37:24.669+09:00",
+      "updated_at": "2023-06-30T03:53:44.576+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 26985,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "1mvev9Ghju9WQSG84ut9ySTQ",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 92,
+          "name": "강남구",
+          "parent": {
+            "id": 69,
+            "name": "서울"
+          }
+        }
+      ]
+    },
+    {
+      "id": 366,
+      "name": "수지클라이밍",
+      "address": "경기 용인시 수지구 포은대로 499",
+      "lat": 37.325893,
+      "lng": 127.105598,
+      "phone_number": "031-281-7426",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": null,
+      "username": "수지클라이밍",
+      "hits": 85,
+      "created_at": "2023-05-11T14:16:13.915+09:00",
+      "updated_at": "2023-06-30T04:17:15.089+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 5652,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "KziKD6bw9JWpCVP7qPm8Suyz",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 2,
+          "name": "리드",
+          "name_en": "lead_climbing"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 154,
+          "name": "용인시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 664,
+      "name": "안산 베이스캠프 클라이밍",
+      "address": "경기 안산시 단원구 광덕2로 185-20",
+      "lat": 37.311713,
+      "lng": 126.831552,
+      "phone_number": "031-439-8848",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "안산 베이스캠프 클라이밍",
+      "hits": 85,
+      "created_at": "2023-09-15T18:56:03.581+09:00",
+      "updated_at": "2023-09-22T15:44:40.937+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 10715,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "cJrT26rK8sZTKpoXbBtXcGE5",
+      "category2": "indoor",
+      "approach": null,
+      "profile_thumbnail": null,
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 158,
+          "name": "안산시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    },
+    {
+      "id": 843,
+      "name": "클라임원",
+      "address": "경기 이천시 이섭대천로 1458 201호",
+      "lat": 37.297375,
+      "lng": 127.458221,
+      "phone_number": "",
+      "open_hour": null,
+      "reservation_method": null,
+      "homepage": null,
+      "desc": "",
+      "username": "클라임원",
+      "hits": 57,
+      "created_at": "2023-12-03T17:55:01.959+09:00",
+      "updated_at": "2023-12-13T01:09:30.859+09:00",
+      "blog_link": null,
+      "instagram_link": null,
+      "kakao_link": null,
+      "views": 3866,
+      "category": "gym",
+      "state": "is_private",
+      "favorite_sports": null,
+      "public_id": "kNem2V49Xe1sPqLLxK3sxrWP",
+      "category2": "indoor",
+      "approach": "",
+      "profile_thumbnail": "https://spirit-files-bucket.s3.ap-northeast-2.amazonaws.com/gb5efv7vywkaay2h38kt8r37wtxi",
+      "sports": [
+        {
+          "id": 2,
+          "name": "클라이밍",
+          "name_en": "climbing",
+          "category": "unset"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "볼더링",
+          "name_en": "bouldering"
+        },
+        {
+          "id": 3,
+          "name": "지구력",
+          "name_en": "endurance_climbing"
+        },
+        {
+          "id": 4,
+          "name": "문보드",
+          "name_en": "moon_board"
+        },
+        {
+          "id": 5,
+          "name": "킬터보드",
+          "name_en": "kilter_board"
+        }
+      ],
+      "p_locations": [
+        {
+          "id": 172,
+          "name": "이천시",
+          "parent": {
+            "id": 151,
+            "name": "경기"
+          }
+        }
+      ]
+    }
+  ],
+  "total_count": 728
+}
