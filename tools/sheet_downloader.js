@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 class SheetDownloader {
   constructor(apiClient) {
@@ -14,7 +14,7 @@ class SheetDownloader {
 
     const rows = res.data.values;
     if (rows.length === 0) {
-      const message = 'No data found on the sheet';
+      const message = "No data found on the sheet";
       console.error(message);
       return {};
     }
