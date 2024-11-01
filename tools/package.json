@@ -9,6 +9,6 @@
   "author": "robert",
   "license": "ISC",
   "dependencies": {
-    "googleapis": "^144.0.0"
+    "googleapis": "^39.2.0"
   }
 }
