@@ -10,7 +10,9 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "apollo:codegen": " rimraf app/__generated__ && apollo client:codegen app/__generated__ --target=typescript --outputFlat"
+    "apollo:codegen": " rimraf app/__generated__ && apollo client:codegen app/__generated__ --target=typescript --outputFlat",
+    "deploy": "gh-pages -t -d dist",
+    "predeploy": "expo export -p web"
   },
   "jest": {
     "preset": "jest-expo"
