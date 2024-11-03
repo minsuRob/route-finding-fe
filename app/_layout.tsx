@@ -60,7 +60,6 @@ export default function RootLayout() {
     colorScheme = isDarkmode();
   }
 
-  // alert(colorScheme);
   const [loaded] = useFonts({
     SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
   });
