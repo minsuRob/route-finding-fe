@@ -23,9 +23,23 @@ import {
 import { client, isLoggedInVar, tokenVar } from "@/constants/apollo/apollo";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import AppLoading from "expo-app-loading";
+import { Platform } from "react-native";
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
+
+const isDarkmode = () => {
+  if (window.matchMedia) {
+    // Check if the dark-mode Media-Query matches
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      return "dark";
+    } else {
+      return "light";
+    }
+  } else {
+    console.log("Media-Queries are not supported");
+  }
+};
 
 // token pre load.
 const preLoad = async () => {
@@ -41,7 +55,12 @@ export default function RootLayout() {
   const [loading, setLoading] = useState(true);
   const onFinish = () => setLoading(false);
 
-  const colorScheme = useColorScheme();
+  let colorScheme = useColorScheme();
+  if (Platform.OS === "web") {
+    colorScheme = isDarkmode();
+  }
+
+  // alert(colorScheme);
   const [loaded] = useFonts({
     SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
   });
