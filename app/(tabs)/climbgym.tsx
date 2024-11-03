@@ -5,12 +5,17 @@ import {
   Text,
   View,
   FlatList,
+  useColorScheme,
 } from "react-native";
 
 import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
+import styled from "styled-components/native";
+
+const colorScheme = useColorScheme() ?? "light";
+const isDark = colorScheme === "dark" ? true : false;
 
 export default function Flat() {
   return (
@@ -24,13 +29,40 @@ export default function Flat() {
 
 const Comp = () => {
   return (
-    <View className="flex flex-col">
-      <View className="bg-cover bg-center mb-3 py-28 bg-red-500"></View>
-      <Text className="text-xl">Name</Text>
-      <ThemedText type="defaultSemiBold">Name</ThemedText>
-      <Text className="border-t mt-2 py-2 text-xs opacity-50 border-gray-400 text-white">
-        CaTe
-      </Text>
-    </View>
+    <Container isDark={isDark}>
+      <Header>
+        <UserAvatar
+          resizeMode="cover"
+          source={require("@/assets/images/haerin.jpg")}
+        />
+        <Username isDark={isDark}>{"user.username"}</Username>
+      </Header>
+      {/* <File
+        resizeMode="cover"
+        source={require("@/assets/images/haerinBG.png")}
+
+        // source={{ uri: imgfile[id] }}
+      /> */}
+    </Container>
   );
 };
+
+const Container = styled.View``;
+const Header = styled.View``;
+const UserAvatar = styled.Image`
+  margin-left: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 12.5px;
+`;
+const Username = styled.Text<{ isDark: boolean }>`
+  color: ${(props) => (props.isDark ? "#FFF" : "#000")};
+`;
+const File = styled.Image``;
+const Actions = styled.View``;
+const Action = styled.TouchableOpacity``;
+const Caption = styled.View``;
+const CaptionText = styled.Text``;
+const Likes = styled.Text``;
+
+const ExtraContainer = styled.View``;
