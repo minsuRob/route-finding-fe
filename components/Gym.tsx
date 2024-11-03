@@ -24,9 +24,13 @@ const Gym: React.FC<GymItemProps> = ({ gym_name }) => {
 };
 
 const Container = styled.View``;
-const Header = styled.View``;
+const Header = styled.View`
+  padding: 10px;
+  align-items: center;
+  flex-direction: row;
+`;
 const UserAvatar = styled.Image`
-  margin-left: 10px;
+  margin-right: 10px;
   width: 32px;
   height: 32px;
   border-radius: 12.5px;
