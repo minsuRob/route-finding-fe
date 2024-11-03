@@ -1,22 +1,8 @@
-import {
-  Image,
-  StyleSheet,
-  Platform,
-  Text,
-  View,
-  FlatList,
-  useColorScheme,
-} from "react-native";
+import { View, FlatList, useColorScheme } from "react-native";
 
-import { HelloWave } from "@/components/HelloWave";
-import ParallaxScrollView from "@/components/ParallaxScrollView";
-import { ThemedText } from "@/components/ThemedText";
-import { ThemedView } from "@/components/ThemedView";
 import styled from "styled-components/native";
-
 const colorScheme = useColorScheme() ?? "light";
 const isDark = colorScheme === "dark" ? true : false;
-
 export default function Flat() {
   return (
     <View className="flex justify-around">
@@ -29,7 +15,7 @@ export default function Flat() {
 
 const Comp = () => {
   return (
-    <Container isDark={isDark}>
+    <Container>
       <Header>
         <UserAvatar
           resizeMode="cover"
