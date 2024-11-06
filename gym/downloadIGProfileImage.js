@@ -1,21 +1,21 @@
 const axios = require("axios");
 const searchQuerys = [
-  "theclimb_yeonnam",
-  "climbing_park_seongsu",
-  "peakers_jongro",
-  "theclimb_gangnam",
-  "sonclimb_gangnam",
-  "theclimb_yangjae",
-  "theclimb_sillim",
-  "catchstone_bucheon",
-  "rocktree_bundang",
-  "climbing_park_jongro",
-  "seoulforest_yeongdp",
-  "peakers_guro",
-  "gravity_yeongtong",
-  "climbbounce_suwon",
-  "waverock_namcheon",
-  "theclimb_b_hongdae",
+  // "theclimb_yeonnam",
+  // "climbing_park_seongsu",
+  // "peakers_jongro",
+  // "theclimb_gangnam",
+  // "sonclimb_gangnam",
+  // "theclimb_yangjae",
+  // "theclimb_sillim",
+  // "catchstone_bucheon",
+  // "rocktree_bundang",
+  // "climbing_park_jongro",
+  // "seoulforest_yeongdp",
+  // "peakers_guro",
+  // "gravity_yeongtong",
+  // "climbbounce_suwon",
+  // "waverock_namcheon",
+  // "theclimb_b_hongdae",
   "climb_us_moran",
   "theclimb_sadang",
   "allez_climb_gangdong",
@@ -655,18 +655,42 @@ const searchQuerys = [
   "dbouldering_plus_nishihachioji",
   "dbouldering_suwa",
 ];
-
+const timeout = 15000;
 async function fetchData(searchQueries) {
+  // for (query in searchQueries) {
   for (const [index, query] of searchQueries.entries()) {
     try {
       const response = await axios.get(
-        `http://127.0.0.1:80/get_profile_pic?username=${query}`
+        `http://127.0.0.1:80/get_profile_pic?username=${query}`,
+        { timeout }
       );
-      console.log(`[${index + 1}]--[] ${response.data.profile_pic_url}`);
+      // setTimeout(() => console.log(`${"zz"}`), 2000);
+      console.log(`${response.data.profile_pic_url}`);
     } catch (error) {
-      console.log(`[${index + 1}]--[] ERROR ${query}`);
+      console.log(`[ERROR ${query} : ${error}`);
     }
   }
 }
 
-fetchData(searchQuerys);
+async function fetchUrlsWithDelay(urls) {
+  for (const url of urls) {
+    if (url.length === 0) {
+      console.log('""');
+      continue;
+    }
+    try {
+      const response = await axios.get(
+        `http://127.0.0.1:80/get_profile_pic?username=${url}`
+      );
+      // console.log(`Data from ${url}:`, response.data);
+      console.log(`${response.data.profile_pic_url}`);
+    } catch (error) {
+      console.error(`Error : ${url}:`);
+    }
+
+    // 다음 요청 전 5초 대기
+    await new Promise((resolve) => setTimeout(resolve, 120000));
+  }
+}
+
+fetchUrlsWithDelay(searchQuerys);
