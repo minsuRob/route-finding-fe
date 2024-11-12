@@ -17,17 +17,6 @@ const Gym: React.FC<GymItemProps> = ({ gym_name, address }) => {
           resizeMode="cover"
           source={require("@/assets/images/haerin.jpg")}
         />
-        <Username onPress={goToProfile} isDark={isDark}>
-          {gym_name}
-        </Username>
-      </Header>
-      {/* <File
-          resizeMode="cover"
-          source={require("@/assets/images/haerinBG.png")}
-  
-          // source={{ uri: imgfile[id] }}
-        /> */}
-      <ExtraContainer>
         <Actions>
           <Action>
             <Ionicons
@@ -42,20 +31,13 @@ const Gym: React.FC<GymItemProps> = ({ gym_name, address }) => {
             <Ionicons name="chatbubble-outline" color="white" size={22} />
           </Action>
         </Actions>
-        <TouchableOpacity
-          onPress={() => {
-            // navigation.navigate("Likes", { photoId: id });
-          }}
-        >
-          {/* <Likes>{likes === 1 ? "1 like" : `${likes} likes`}</Likes> */}
-        </TouchableOpacity>
         <Caption>
           <TouchableOpacity onPress={goToProfile}>
             <Username isDark={isDark}>{gym_name}</Username>
           </TouchableOpacity>
           <CaptionText isDark={isDark}>{address}</CaptionText>
         </Caption>
-      </ExtraContainer>
+      </Header>
     </Container>
   );
 };
@@ -65,12 +47,14 @@ const Header = styled.View`
   padding: 10px;
   align-items: center;
   flex-direction: row;
+  border-bottom-width: 2px;
+  border-color: aqua;
 `;
 const UserAvatar = styled.Image`
   margin-right: 10px;
-  width: 32px;
-  height: 32px;
-  border-radius: 12.5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
 `;
 const Username = styled.Text<{ isDark: boolean }>`
   color: ${(props) => (props.isDark ? "#FFF" : "#000")};

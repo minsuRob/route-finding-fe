@@ -31,8 +31,8 @@ export default function climbgym() {
   );
 
   return (
-    <View className="flex justify-around">
-      <View className="gap-x-5 gap-y-10 mt-16">
+    <View className="">
+      <View className="">
         <SearchBox />
         <FlatList renderItem={renderGym} data={gymData} />
       </View>
