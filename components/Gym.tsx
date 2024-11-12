@@ -68,7 +68,7 @@ const Action = styled.TouchableOpacity`
   margin-right: 10px;
 `;
 const Caption = styled.View`
-  flex-direction: row;
+  /* flex-direction: row; */
 `;
 const CaptionText = styled.Text<{ isDark: boolean }>`
   color: ${(props) => (props.isDark ? "#FFF" : "#000")};
