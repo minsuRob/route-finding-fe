@@ -25,19 +25,27 @@ const FollowContentsBox = styled.TouchableOpacity`
 
 const Side = styled.View`
   flex: 1;
+  border-width: 1;
   /* background-color: #f1f1f1; */
-  padding: 20px;
+  /* padding: 20px; */
+  border-color: "red";
+  height: 200px;
 `;
 
 const Row = styled.View`
-  display: flex;
-  flex-wrap: wrap;
+  flex: 1;
+  flex-direction: row;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   /* flex-direction: column; */
 `;
 const Main = styled.View`
   flex: 2;
-  /* background-color: white; */
-  padding: 20px;
+  border-width: 1;
+  /* background-color: #f1f1f1; */
+  /* padding: 20px; */
+  border-color: "blue";
+  height: 200px;
 `;
 
 const FakeImg = styled.View`
@@ -89,10 +97,16 @@ export default function Profile({}) {
           <ThemedText>Welcome!!</ThemedText>
           <FakeImg></FakeImg>
           <ThemedText>More Text</ThemedText>
-        </Main>
-      </Row> */}
+          </Main>
+          </Row> */}
       {/* </Container> */}
       <SplitView />
+      <Row>
+        <Side>
+          <ThemedText>More Text</ThemedText>
+        </Side>
+        <Main></Main>
+      </Row>
     </Screen>
   );
 }
