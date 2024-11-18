@@ -4,6 +4,7 @@ import styled from "styled-components/native";
 import gymData from "@/tools/downloaded/gym.json";
 import Gym from "@/components/Gym";
 import { useForm } from "react-hook-form";
+import { Screen } from "@/ignite/Screen";
 
 export default function climbgym() {
   const { setValue, register, watch, handleSubmit } = useForm();
@@ -31,11 +32,9 @@ export default function climbgym() {
   );
 
   return (
-    <View className="">
-      <View className="">
-        <SearchBox />
-        <FlatList renderItem={renderGym} data={gymData} />
-      </View>
-    </View>
+    <Screen preset="scroll">
+      <SearchBox />
+      <FlatList renderItem={renderGym} data={gymData} />
+    </Screen>
   );
 }
