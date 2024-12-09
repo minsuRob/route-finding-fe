@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   masterView: {
     flex: 1,
     // maxWidth: 400,
-    borderWidth: 1,
+    // borderWidth: 1,
     borderColor: "red",
     height: 200,
   },
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     height: 200,
     flex: 2,
     overflow: "hidden",
-    borderWidth: 1,
+    // borderWidth: 1,
     borderColor: "blue",
   },
 });
