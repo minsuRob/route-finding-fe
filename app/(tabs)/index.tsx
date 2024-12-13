@@ -1,118 +1,84 @@
-import { Screen } from "@/ignite/Screen";
-import { ThemedText } from "@/components/ThemedText";
-import { translate } from "@/constants/i18n";
-import { ThemeText } from "@/constants/Styles";
 import React from "react";
-import {
-  StyleSheet,
-  TouchableOpacity,
-  useColorScheme,
-  View,
-} from "react-native";
 import styled from "styled-components/native";
+import { FlatList } from "react-native";
 
-export const Container = styled.SafeAreaView<{ isDark: boolean }>`
-  /* background-color: ${(props) => (props.isDark ? "#FFF" : "#e5e5e5")}; */
-  /* flex: 1;
-  justify-content: center;
-  align-items: center; */
-`;
+const EmojiGrid = () => {
+  const emojis = [
+    "😀1",
+    "😂2",
+    "😍3",
+    "🥳4",
+    "🤩5",
+    "😎6",
+    "🤔7",
+    "😴8",
+    "😇",
+    "🥺9",
+    "😡10",
+    "🤯11",
+    "🤗12",
+    "🤪13",
+    "🤓14",
+    "😱15",
+    "😭16",
+    "😅17",
+    "🙃18",
+    "🤤19",
+    "😀20",
+    "😂21",
+    "😍22",
+    "🥳23",
+    "🤩24",
+    "😀25",
+    "😂26",
+    "😍27",
+    "🥳28",
+    "🤩29",
+  ];
 
-const FollowContentsBox = styled.TouchableOpacity`
-  width: 20%;
-  border-color: ${(props) => props.theme.accent};
-`;
-
-const Side = styled.View`
-  flex: 1;
-  border-width: 1;
-  /* background-color: #f1f1f1; */
-  /* padding: 20px; */
-  border-color: "red";
-  height: 200px;
-`;
-
-const Row = styled.View`
-  flex: 1;
-  flex-direction: row;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* flex-direction: column; */
-`;
-const Main = styled.View`
-  flex: 2;
-  border-width: 1;
-  /* background-color: #f1f1f1; */
-  /* padding: 20px; */
-  border-color: "blue";
-  height: 200px;
-`;
-
-const FakeImg = styled.View`
-  width: 200px;
-  width: 100%;
-  background-color: #aaa;
-  padding: 20px;
-`;
-
-const styles = StyleSheet.create({
-  root: { flex: 1, flexDirection: "row" },
-  masterView: {
-    flex: 1,
-    // maxWidth: 400,
-    // borderWidth: 1,
-    borderColor: "red",
-    height: 200,
-  },
-  detailView: {
-    height: 200,
-    flex: 2,
-    overflow: "hidden",
-    // borderWidth: 1,
-    borderColor: "blue",
-  },
-});
-
-export default function Profile({}) {
-  // const { data } = useUser();
-  const colorScheme = useColorScheme() ?? "light";
-  const isDark = colorScheme === "dark" ? true : false;
-  // <Avatar source={require("@/assets/images/haerinBG.png")} />
+  const renderItem = ({ item }: { item: string }) => (
+    <EmojiContainer>
+      <Emoji>{item}</Emoji>
+    </EmojiContainer>
+  );
 
   return (
-    <Screen preset="fixed">
-      {/* <Container isDark={isDark}> */}
-      {/* <AccountIcon width="100" height="100" fill="#268596" /> */}
-      {/* <Row>
-        <Side>
-          <ThemedText type="title">Welcome!!</ThemedText>
-          <ThemedText>Welcome!!</ThemedText>
-          <ThemedText>Welcome!!</ThemedText>
-          <FakeImg></FakeImg>
-          <ThemedText>More Text</ThemedText>
-        </Side>
-        <Main>
-          <ThemedText type="title">Welcome!!</ThemedText>
-          <ThemedText>Welcome!!</ThemedText>
-          <ThemedText>Welcome!!</ThemedText>
-          <FakeImg></FakeImg>
-          <ThemedText>More Text</ThemedText>
-          </Main>
-          </Row> */}
-      {/* </Container> */}
-      <SplitView />
-      <Row>
-        <Side>
-          <ThemedText>More Text</ThemedText>
-        </Side>
-        <Main></Main>
-      </Row>
-    </Screen>
+    <Container>
+      <FlatList
+        data={emojis}
+        renderItem={renderItem}
+        keyExtractor={(item, index) => index.toString()}
+        numColumns={5}
+        contentContainerStyle={{ alignItems: "center" }}
+      />
+    </Container>
   );
-}
-const SplitView = () => (
-  <View style={styles.root}>
-    <View style={styles.masterView}></View>
-    <View style={styles.detailView}></View>
-  </View>
-);
+};
+
+const Container = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+`;
+
+const EmojiContainer = styled.View`
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  shadow-color: #000;
+  /* shadow-offset: { width: 0, height: 2 }; */
+  shadow-opacity: 0.1;
+  shadow-radius: 3px;
+  elevation: 2;
+`;
+
+const Emoji = styled.Text`
+  font-size: 24px;
+`;
+
+export default EmojiGrid;
