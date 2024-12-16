@@ -22,10 +22,20 @@ interface CustomTheme extends Theme {
 }
 
 interface DayComponentProps {
-  date?: string;
+  date?: {
+    dateString: string;
+    day: number;
+  };
   state?: string;
-  marking?: any;
+  marking?: {
+    selected?: boolean;
+    [key: string]: any;
+  };
   theme?: any;
+}
+
+interface ThemeProps {
+  isDarkMode: boolean;
 }
 
 const Container = styled.View<StyledProps>`
@@ -54,11 +64,10 @@ const DateText = styled.Text<StyledProps>`
   margin-bottom: 4px;
 `;
 
-const EmojiContainer = styled.View`
+const EmojiContainer = styled.View<ThemeProps>`
   width: 32px;
   height: 32px;
-  background-color: ${(props) =>
-    props.theme.isDarkMode ? "#1E1E1E" : "#F5F5F5"};
+  background-color: ${(props) => (props.isDarkMode ? "#1E1E1E" : "#F5F5F5")};
   border-radius: 4px;
   align-items: center;
   justify-content: center;
@@ -108,7 +117,7 @@ const DayComponent: React.FC<DayComponentProps> = ({
         {date ? date.day : ""}
       </DateText>
       <EmojiContainer
-        theme={{ isDarkMode }}
+        isDarkMode={isDarkMode}
         style={
           isSelected
             ? {
