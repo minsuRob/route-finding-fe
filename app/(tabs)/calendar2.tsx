@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { useColorScheme, Dimensions, Platform, ViewStyle, Text, View } from "react-native";
+import {
+  useColorScheme,
+  Dimensions,
+  Platform,
+  ViewStyle,
+  Text,
+  View,
+} from "react-native";
 import { Calendar, LocaleConfig } from "react-native-calendars";
 import styled from "styled-components/native";
 import { Theme } from "react-native-calendars/src/types";
@@ -50,7 +57,8 @@ const DateText = styled.Text<StyledProps>`
 const EmojiContainer = styled.View`
   width: 32px;
   height: 32px;
-  background-color: ${(props) => (props.theme.isDarkMode ? "#1E1E1E" : "#F5F5F5")};
+  background-color: ${(props) =>
+    props.theme.isDarkMode ? "#1E1E1E" : "#F5F5F5"};
   border-radius: 4px;
   align-items: center;
   justify-content: center;
@@ -67,20 +75,48 @@ const dateToEmoji: { [key: string]: string } = {
   "2024-10-23": "🎵",
 };
 
-const DayComponent: React.FC<DayComponentProps> = ({ date, state, marking, theme }) => {
+const DayComponent: React.FC<DayComponentProps> = ({
+  date,
+  state,
+  marking,
+  theme,
+}) => {
   const isDarkMode = useColorScheme() === "dark";
   const emoji = date ? dateToEmoji[date.dateString] : null;
-  
+  const isSelected = marking?.selected;
+
   if (state === "disabled") {
     return <View style={{ width: 45, height: 65 }} />;
   }
 
   return (
     <DayContainer>
-      <DateText isDarkMode={isDarkMode}>
+      <DateText
+        isDarkMode={isDarkMode}
+        style={
+          isSelected
+            ? {
+                color: "#FFFFFF",
+                fontWeight: "bold",
+                backgroundColor: "#FF0000",
+                padding: 4,
+                borderRadius: 4,
+              }
+            : {}
+        }
+      >
         {date ? date.day : ""}
       </DateText>
-      <EmojiContainer theme={{ isDarkMode }}>
+      <EmojiContainer
+        theme={{ isDarkMode }}
+        style={
+          isSelected
+            ? {
+                backgroundColor: "#FF4444",
+              }
+            : {}
+        }
+      >
         <EmojiText>{emoji || "😊"}</EmojiText>
       </EmojiContainer>
     </DayContainer>
@@ -188,14 +224,27 @@ const CustomCalendar: React.FC = () => {
   }, []);
 
   const onDayPress = (day: any) => {
-    setSelectedDate(day.dateString);
-    setMarkedDates((prev: any) => ({
-      ...prev,
-      [day.dateString]: {
-        selected: true,
-        selectedColor: "#FF0000",
-      },
-    }));
+    const newSelectedDate = day.dateString;
+    setSelectedDate(newSelectedDate);
+
+    // Update marked dates while preserving emoji markers
+    const updatedMarkedDates = { ...markedDates };
+    // Remove previous selection
+    Object.keys(updatedMarkedDates).forEach((date) => {
+      if (updatedMarkedDates[date].selected) {
+        delete updatedMarkedDates[date].selected;
+        delete updatedMarkedDates[date].selectedColor;
+      }
+    });
+
+    // Add new selection
+    updatedMarkedDates[newSelectedDate] = {
+      ...updatedMarkedDates[newSelectedDate],
+      selected: true,
+      selectedColor: "#FF0000",
+    };
+
+    setMarkedDates(updatedMarkedDates);
   };
 
   return (
