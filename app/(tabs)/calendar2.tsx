@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useColorScheme, Dimensions, Platform, ViewStyle } from "react-native";
+import { useColorScheme, Dimensions, Platform, ViewStyle, Text, View } from "react-native";
 import { Calendar, LocaleConfig } from "react-native-calendars";
 import styled from "styled-components/native";
 import { Theme } from "react-native-calendars/src/types";
@@ -14,6 +14,13 @@ interface CustomTheme extends Theme {
   };
 }
 
+interface DayComponentProps {
+  date?: string;
+  state?: string;
+  marking?: any;
+  theme?: any;
+}
+
 const Container = styled.View<StyledProps>`
   flex: 1;
   background-color: ${(props) => (props.isDarkMode ? "#000000" : "#FFFFFF")};
@@ -26,11 +33,59 @@ const CalendarContainer = styled.View<StyledProps>`
   background-color: ${(props) => (props.isDarkMode ? "#000000" : "#FFFFFF")};
 `;
 
-const HeaderText = styled.Text<StyledProps>`
+const DayContainer = styled.View`
+  width: 45px;
+  height: 65px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 4px;
+`;
+
+const DateText = styled.Text<StyledProps>`
   color: ${(props) => (props.isDarkMode ? "#FFFFFF" : "#000000")};
   font-size: 16px;
-  font-weight: bold;
+  margin-bottom: 4px;
 `;
+
+const EmojiContainer = styled.View`
+  width: 32px;
+  height: 32px;
+  background-color: ${(props) => (props.theme.isDarkMode ? "#1E1E1E" : "#F5F5F5")};
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+`;
+
+const EmojiText = styled.Text`
+  font-size: 16px;
+`;
+
+// 날짜별 이모지 매핑
+const dateToEmoji: { [key: string]: string } = {
+  "2024-10-11": "🏠",
+  "2024-10-16": "🎮",
+  "2024-10-23": "🎵",
+};
+
+const DayComponent: React.FC<DayComponentProps> = ({ date, state, marking, theme }) => {
+  const isDarkMode = useColorScheme() === "dark";
+  const emoji = date ? dateToEmoji[date.dateString] : null;
+  
+  if (state === "disabled") {
+    return <View style={{ width: 45, height: 65 }} />;
+  }
+
+  return (
+    <DayContainer>
+      <DateText isDarkMode={isDarkMode}>
+        {date ? date.day : ""}
+      </DateText>
+      <EmojiContainer theme={{ isDarkMode }}>
+        <EmojiText>{emoji || "😊"}</EmojiText>
+      </EmojiContainer>
+    </DayContainer>
+  );
+};
 
 // Korean locale configuration
 LocaleConfig.locales["kr"] = {
@@ -113,7 +168,6 @@ const CustomCalendar: React.FC = () => {
   });
 
   useEffect(() => {
-    // Example marked dates
     const today = new Date();
     const currentDate = today.toISOString().split("T")[0];
 
@@ -155,6 +209,7 @@ const CustomCalendar: React.FC = () => {
           hideExtraDays={false}
           firstDay={0}
           showSixWeeks={true}
+          dayComponent={DayComponent}
         />
       </CalendarContainer>
     </Container>
