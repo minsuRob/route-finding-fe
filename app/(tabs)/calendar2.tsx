@@ -75,9 +75,9 @@ const EmojiText = styled.Text`
 
 // 날짜별 이모지 매핑
 const dateToEmoji: { [key: string]: string } = {
-  "2024-10-11": "🏠",
-  "2024-10-16": "🎮",
-  "2024-10-23": "🎵",
+  "2024-12-11": "🏠",
+  "2024-12-16": "🎮",
+  "2024-12-23": "🎵",
 };
 
 const DayComponent: React.FC<DayComponentProps> = ({
@@ -103,8 +103,32 @@ const DayComponent: React.FC<DayComponentProps> = ({
 
   return (
     <DayContainer onPress={handlePress}>
-      <DateText isDarkMode={isDarkMode}>{date?.day}</DateText>
-      <EmojiContainer isDarkMode={isDarkMode}>
+      <DateText
+        isDarkMode={isDarkMode}
+        style={
+          isSelected
+            ? {
+                color: "#FFFFFF",
+                fontWeight: "bold",
+                backgroundColor: "#FF0000",
+                padding: 4,
+                borderRadius: 4,
+              }
+            : {}
+        }
+      >
+        {date?.day}
+      </DateText>
+      <EmojiContainer
+        isDarkMode={isDarkMode}
+        style={
+          isSelected
+            ? {
+                backgroundColor: "#FF4444",
+              }
+            : {}
+        }
+      >
         <EmojiText>{emoji || "😊"}</EmojiText>
       </EmojiContainer>
     </DayContainer>
@@ -200,14 +224,14 @@ const CustomCalendar: React.FC = () => {
         selected: true,
         selectedColor: "#FF0000",
       },
-      "2024-10-11": {
-        selected: true,
-        selectedColor: "#FF0000",
-      },
-      "2024-10-16": {
-        marked: true,
-        dotColor: "#8B3DFF",
-      },
+      // "2024-10-11": {
+      //   selected: true,
+      //   selectedColor: "#FF0000",
+      // },
+      // "2024-10-16": {
+      //   marked: true,
+      //   dotColor: "#8B3DFF",
+      // },
     });
   }, []);
 
@@ -259,7 +283,7 @@ const CustomCalendar: React.FC = () => {
               date={date}
               state={state}
               marking={marking}
-              onPress={onDayPress}
+              onPress={(date) => onDayPress(date)}
             />
           )}
         />
