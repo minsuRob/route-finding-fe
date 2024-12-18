@@ -6,10 +6,11 @@ import {
   ViewStyle,
   Text,
   View,
+  TouchableOpacity,
 } from "react-native";
-import { Calendar, LocaleConfig } from "react-native-calendars";
+import { Calendar, LocaleConfig, DateData } from "react-native-calendars";
 import styled from "styled-components/native";
-import { Theme } from "react-native-calendars/src/types";
+import { Theme, MarkedDates } from "react-native-calendars/src/types";
 
 interface StyledProps {
   isDarkMode: boolean;
@@ -22,16 +23,11 @@ interface CustomTheme extends Theme {
 }
 
 interface DayComponentProps {
-  date?: {
-    dateString: string;
-    day: number;
-  };
+  date?: DateData;
   state?: string;
-  marking?: {
-    selected?: boolean;
-    [key: string]: any;
-  };
+  marking?: MarkedDates;
   theme?: any;
+  onPress?: (date: DateData) => void;
 }
 
 interface ThemeProps {
@@ -50,7 +46,7 @@ const CalendarContainer = styled.View<StyledProps>`
   background-color: ${(props) => (props.isDarkMode ? "#000000" : "#FFFFFF")};
 `;
 
-const DayContainer = styled.View`
+const DayContainer = styled.TouchableOpacity`
   width: 45px;
   height: 65px;
   align-items: center;
@@ -89,6 +85,7 @@ const DayComponent: React.FC<DayComponentProps> = ({
   state,
   marking,
   theme,
+  onPress,
 }) => {
   const isDarkMode = useColorScheme() === "dark";
   const emoji = date ? dateToEmoji[date.dateString] : null;
@@ -98,34 +95,16 @@ const DayComponent: React.FC<DayComponentProps> = ({
     return <View style={{ width: 45, height: 65 }} />;
   }
 
+  const handlePress = () => {
+    if (date && onPress) {
+      onPress(date);
+    }
+  };
+
   return (
-    <DayContainer>
-      <DateText
-        isDarkMode={isDarkMode}
-        style={
-          isSelected
-            ? {
-                color: "#FFFFFF",
-                fontWeight: "bold",
-                backgroundColor: "#FF0000",
-                padding: 4,
-                borderRadius: 4,
-              }
-            : {}
-        }
-      >
-        {date ? date.day : ""}
-      </DateText>
-      <EmojiContainer
-        isDarkMode={isDarkMode}
-        style={
-          isSelected
-            ? {
-                backgroundColor: "#FF4444",
-              }
-            : {}
-        }
-      >
+    <DayContainer onPress={handlePress}>
+      <DateText isDarkMode={isDarkMode}>{date?.day}</DateText>
+      <EmojiContainer isDarkMode={isDarkMode}>
         <EmojiText>{emoji || "😊"}</EmojiText>
       </EmojiContainer>
     </DayContainer>
@@ -267,7 +246,22 @@ const CustomCalendar: React.FC = () => {
           hideExtraDays={false}
           firstDay={0}
           showSixWeeks={true}
-          dayComponent={DayComponent}
+          dayComponent={({
+            date,
+            state,
+            marking,
+          }: {
+            date?: DateData;
+            state?: string;
+            marking?: MarkedDates;
+          }) => (
+            <DayComponent
+              date={date}
+              state={state}
+              marking={marking}
+              onPress={onDayPress}
+            />
+          )}
         />
       </CalendarContainer>
     </Container>
