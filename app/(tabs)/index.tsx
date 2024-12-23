@@ -124,8 +124,10 @@ const Button = styled.TouchableOpacity`
 const NoticeText = styled.Text`
   padding: 10px 20px;
   font-size: 20px;
-  color: #333;
-  background-color: #f0f0f0;
+  /* color: #888; */
+  color: ${(props) => props.theme.titleColor};
+  background-color: ${(props) => props.theme.backgroundColor};
+  /* background-color: #a0f0f0; */
   margin-bottom: 20px;
 `;
 const ButtonText = styled.Text`
