@@ -25,6 +25,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import AppLoading from "expo-app-loading";
 import { Platform } from "react-native";
 import { ThemeProvider as StyledThemeProvider } from "styled-components";
+import { darkStyeld, lightStyled } from "@/constants/Colors";
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
@@ -84,20 +85,6 @@ export default function RootLayout() {
       />
     );
   }
-
-  const darkStyeld = {
-    titleColor: "#888",
-    bgColor: "#b8b8b8",
-    backgoundColor: "#8d5b5b",
-  };
-
-  const lightStyled = {
-    // colors: {
-    titleColor: "#f80606",
-    bgColor: "#121212",
-    backgoundColor: "#4f0b0b",
-    // },
-  };
 
   const theme = colorScheme === "dark" ? "dark" : "light";
   const themeStyeld = theme ? darkStyeld : lightStyled;

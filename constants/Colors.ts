@@ -24,3 +24,15 @@ export const Colors = {
     tabIconSelected: tintColorDark,
   },
 };
+
+export const darkStyeld = {
+  titleColor: "#888",
+  containerColor: "#2a2222",
+};
+
+export const lightStyled = {
+  // colors: {
+  titleColor: "#f80606",
+  containerColor: "#b8b8b8",
+  // },
+};

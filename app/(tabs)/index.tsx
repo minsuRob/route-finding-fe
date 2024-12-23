@@ -69,7 +69,7 @@ const EmojiGrid = () => {
 };
 
 const Container = styled.View`
-  background-color: #fff;
+  background-color: ${(props) => props.theme.containerColor};
   max-width: 500px;
   margin: 0 auto;
   padding: 10px;
@@ -102,7 +102,7 @@ const NoticeContainer = styled.View`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 `;
 const ButtonContainer = styled.View`
   flex-direction: row;
