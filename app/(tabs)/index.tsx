@@ -7,51 +7,51 @@ import { Image } from "expo-image";
 
 const EmojiGrid = () => {
   const emojis = [
-    "😀1",
-    "😂2",
-    "😍3",
-    "🥳4",
-    "🤩5",
-    "😎6",
-    "🤔7",
-    "😴8",
-    "😇",
-    "🥺9",
-    "😡10",
-    "🤯11",
-    "🤗12",
-    "🤪13",
-    "🤓14",
-    "😱15",
-    "😭16",
-    "😅17",
-    "🙃18",
-    "🤤19",
-    "😀20",
-    "😂21",
-    "😍22",
-    "🥳23",
-    "🤩24",
-    "😀25",
-    "😂26",
-    "😍27",
-    "🥳28",
-    "🤩29",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "3",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
   ];
   // TODO: check valid blur hash
   const blurhash =
     "|rF?hV%2WCj[ayj[a|j[az_NaeWBj@ayfRayfQfQM{M|azj[azf6fQfQfQIpWXofj[ayj[j[fQayWCoeoeaya}j[ayfQa{oLj?j[WVj[ayayj[fQoff7azayj[ayj[j[ayofayayayj[fQj[ayayj[ayfjj[j[ayjuayj[";
 
   const renderItem = ({ item }: { item: string }) => (
-    <EmojiContainer>
+    <HoldContainer>
       <Image
-        style={{ flex: 1, width: "100%" }}
+        style={{ flex: 1, width: "100%", opacity: Number(`0.${item}`) }}
         source={hold1}
         placeholder={{ blurhash }}
         contentFit="contain"
         transition={1000}
       />
-    </EmojiContainer>
+    </HoldContainer>
   );
 
   return (
@@ -93,13 +93,13 @@ const GymContainer = styled.ImageBackground`
   padding: 10px;
 `;
 
-const EmojiContainer = styled.View`
+const HoldContainer = styled.View`
   justify-content: center;
   align-items: center;
   margin: 5px;
   width: 50px;
   height: 50px;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   border-radius: 10px;
 `;
 
