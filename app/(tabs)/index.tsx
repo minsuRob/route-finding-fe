@@ -45,7 +45,12 @@ const EmojiGrid = () => {
   const renderItem = ({ item }: { item: string }) => (
     <HoldContainer>
       <Image
-        style={{ flex: 1, width: "100%", opacity: Number(`0.${item}`) }}
+        style={{
+          flex: 1,
+          width: "100%",
+          transform: [{ rotate: `${item}deg` }],
+          top: Number(`${item}px`),
+        }}
         source={hold1}
         placeholder={{ blurhash }}
         contentFit="contain"
