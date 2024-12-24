@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components/native";
-import { FlatList, ImageBackground, Text } from "react-native";
+import { FlatList, ImageBackground, StyleSheet, Text } from "react-native";
+// import { WithLocalSvg } from "react-native-svg";
+const hold1 = require("@/constants/images/svg/hold1.svg");
+import { Image } from "expo-image";
 
 const EmojiGrid = () => {
   const emojis = [
@@ -35,10 +38,19 @@ const EmojiGrid = () => {
     "🥳28",
     "🤩29",
   ];
+  // TODO: check valid blur hash
+  const blurhash =
+    "|rF?hV%2WCj[ayj[a|j[az_NaeWBj@ayfRayfQfQM{M|azj[azf6fQfQfQIpWXofj[ayj[j[fQayWCoeoeaya}j[ayfQa{oLj?j[WVj[ayayj[fQoff7azayj[ayj[j[ayofayayayj[fQj[ayayj[ayfjj[j[ayjuayj[";
 
   const renderItem = ({ item }: { item: string }) => (
     <EmojiContainer>
-      <Emoji>{item}</Emoji>
+      <Image
+        style={{ flex: 1, width: "100%" }}
+        source={hold1}
+        placeholder={{ blurhash }}
+        contentFit="contain"
+        transition={1000}
+      />
     </EmojiContainer>
   );
 
@@ -56,7 +68,7 @@ const EmojiGrid = () => {
           renderItem={renderItem}
           keyExtractor={(item, index) => index.toString()}
           numColumns={5}
-          contentContainerStyle={{ alignItems: "center" }}
+          // contentContainerStyle={{ alignItems: "center" }}
         />
       </GymContainer>
       <ButtonContainer>
@@ -89,11 +101,6 @@ const EmojiContainer = styled.View`
   height: 50px;
   background-color: #f0f0f0;
   border-radius: 10px;
-  shadow-color: #000;
-  /* shadow-offset: { width: 0, height: 2 }; */
-  shadow-opacity: 0.1;
-  shadow-radius: 3px;
-  elevation: 2;
 `;
 
 const Emoji = styled.Text`
