@@ -57,7 +57,7 @@ const EmojiGrid = () => {
   return (
     <Container>
       <NoticeContainer>
-        <NoticeText>🥳 빨랑 끝내자 sh~~</NoticeText>
+        <NoticeText>[가벼운동기부여]🥳 빨랑 끝내자 sh~~</NoticeText>
       </NoticeContainer>
       <GymContainer
         resizeMode="cover"
