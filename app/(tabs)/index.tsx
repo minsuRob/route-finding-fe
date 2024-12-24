@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components/native";
-import { FlatList, Text } from "react-native";
+import { FlatList, ImageBackground, Text } from "react-native";
 
 const EmojiGrid = () => {
   const emojis = [
@@ -47,7 +47,10 @@ const EmojiGrid = () => {
       <NoticeContainer>
         <NoticeText>🥳 빨랑 끝내자 sh~~</NoticeText>
       </NoticeContainer>
-      <GymContainer>
+      <GymContainer
+        resizeMode="cover"
+        source={require("@/constants/images/wall.png")}
+      >
         <FlatList
           data={emojis}
           renderItem={renderItem}
@@ -74,8 +77,7 @@ const Container = styled.View`
   margin: 0 auto;
   padding: 10px;
 `;
-const GymContainer = styled.View`
-  background-color: red;
+const GymContainer = styled.ImageBackground`
   padding: 10px;
 `;
 
