@@ -7,49 +7,34 @@ import { Image } from "expo-image";
 
 const EmojiGrid = () => {
   const emojis = [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "3",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19",
-    "20",
-    "21",
-    "22",
-    "23",
-    "24",
-    "25",
-    "26",
-    "27",
-    "28",
-    "29",
+    { id: "1", x: 50, y: 50 },
+    { id: "2", x: 150, y: 50 },
+    { id: "3", x: 250, y: 50 },
+    { id: "4", x: 50, y: 150 },
+    { id: "5", x: 150, y: 150 },
+    { id: "6", x: 250, y: 150 },
+    { id: "7", x: 50, y: 250 },
+    { id: "8", x: 150, y: 250 },
+    { id: "9", x: 250, y: 250 },
+    { id: "10", x: 50, y: 350 },
+    { id: "11", x: 150, y: 350 },
+    { id: "12", x: 250, y: 350 },
   ];
   // TODO: check valid blur hash
   const blurhash =
     "|rF?hV%2WCj[ayj[a|j[az_NaeWBj@ayfRayfQfQM{M|azj[azf6fQfQfQIpWXofj[ayj[j[fQayWCoeoeaya}j[ayfQa{oLj?j[WVj[ayayj[fQoff7azayj[ayj[j[ayofayayayj[fQj[ayayj[ayfjj[j[ayjuayj[";
 
-  const renderItem = ({ item }: { item: string }) => (
-    <HoldContainer>
+  const renderItem = ({
+    item,
+  }: {
+    item: { id: string; x: number; y: number };
+  }) => (
+    <HoldContainer style={{ position: "absolute", left: item.x, top: item.y }}>
       <Image
         style={{
           flex: 1,
           width: "100%",
           transform: [{ rotate: `${item}deg` }],
-          top: Number(`${item}px`),
         }}
         source={hold1}
         placeholder={{ blurhash }}
@@ -71,9 +56,10 @@ const EmojiGrid = () => {
         <FlatList
           data={emojis}
           renderItem={renderItem}
-          keyExtractor={(item, index) => index.toString()}
-          numColumns={5}
-          // contentContainerStyle={{ alignItems: "center" }}
+          keyExtractor={(item) => item.id}
+          numColumns={1}
+          scrollEnabled={false}
+          style={{ width: "100%", height: "100%" }}
         />
       </GymContainer>
       <ButtonContainer>
@@ -90,18 +76,19 @@ const EmojiGrid = () => {
 
 const Container = styled.View`
   background-color: ${(props) => props.theme.containerColor};
-  max-width: 500px;
   margin: 0 auto;
   padding: 10px;
+  width: 100%;
 `;
 const GymContainer = styled.ImageBackground`
   padding: 10px;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 500px;
+  margin: 0 auto;
 `;
 
 const HoldContainer = styled.View`
-  justify-content: center;
-  align-items: center;
-  margin: 5px;
   width: 50px;
   height: 50px;
   /* background-color: #f0f0f0; */
