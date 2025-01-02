@@ -9,9 +9,7 @@ import { Ionicons } from "@expo/vector-icons";
 import styled from "styled-components/native";
 import gymData from "@/tools/downloaded/gym.json";
 import Gym from "@/components/Gym";
-import { useForm } from "react-hook-form";
 import { Screen } from "@/ignite/Screen";
-import { router } from "expo-router";
 import { useState, useMemo } from "react";
 
 const categories = [
@@ -76,7 +74,7 @@ export default function climbgym() {
 
   const SearchBox = () => (
     <HeaderContainer>
-      <TouchableOpacity onPress={() => router.back()}>
+      <TouchableOpacity onPress={() => setSearchQuery("")}>
         <Ionicons name="close" size={24} color="black" />
       </TouchableOpacity>
       <Input
